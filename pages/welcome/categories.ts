@@ -2,7 +2,7 @@ const categories = [
   {
     id: 1,
     title: 'Portraits',
-    url: '/assets/categories/portrait.jpg',
+    url: '/assets/categories/portraits.jpg',
     theme: 'portraits',
   },
   {
@@ -15,24 +15,24 @@ const categories = [
     id: 3,
     title: 'Contemplez le monde qui vous entoure',
     url: '/assets/categories/view.jpg',
-    theme: 'paysages',
+    theme: 'view',
   },
   {
     id: 4,
     title: 'Manger avec les yeux',
     url: '/assets/categories/food.jpg',
-    theme: 'culinaire',
+    theme: 'food',
   },
   {
     id: 5,
     title: "L'air de la ville rend libre",
-    url: '/assets/categories/food.jpg',
+    url: '/assets/categories/street.jpg',
     theme: 'street',
   },
   {
     id: 6,
     title: 'Videos',
-    url: '/assets/categories/food.jpg',
+    url: '/assets/categories/street.jpg',
     theme: 'video',
   },
 ];

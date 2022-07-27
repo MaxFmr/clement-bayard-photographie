@@ -1,18 +1,20 @@
 import { Parallax } from 'react-scroll-parallax';
 import categories from './categories';
-import StyledWelcomePage from './style';
+import StyledCategory from './category.style';
 
 const Welcome = () => {
   return (
-    <StyledWelcomePage>
+    <>
       {categories.map((category) => {
         return (
-          <Parallax speed={50} key={category.id}>
-            <div className={category.theme}></div>
-          </Parallax>
+          <StyledCategory bgUrl={category.url} key={category.id}>
+            <Parallax speed={50}>
+              <div className='category'></div>
+            </Parallax>
+          </StyledCategory>
         );
       })}
-    </StyledWelcomePage>
+    </>
   );
 };
 export default Welcome;
