@@ -6,38 +6,40 @@ const StyledLandingPage = styled.section`
   font-family: 'JetBrains Mono', monospace;
   .insta {
     position: fixed;
-    left: 7%;
-    top: 3%;
+    color: #3f3f3f;
+    background-color: #d8d8d8;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 140px;
-    background-color: none;
-    opacity: 0.5;
-    color: black;
-
+    padding: 0 5px;
+    border-radius: 5px;
+    top: 3%;
+    left: 5%;
+    opacity: 0.9;
+    padding: 2px 3px;
+    @media (max-width: 700px) {
+      top: 12%;
+    }
     :hover {
       opacity: 1;
     }
-    cursor: pointer;
-    text-decoration: none;
   }
+
   .name {
     position: fixed;
     top: 3%;
-    border: solid #d8d8d8 1px;
     height: 40px;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     color: #d8d8d8;
     cursor: default;
-    margin-top: 1%;
+    font-size: larger;
   }
 
   .bg {
-    background-image: url('/assets/1.jpg');
+    background-image: url('/assets/landingBW.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -50,22 +52,22 @@ const StyledLandingPage = styled.section`
   }
   .scrollDown {
     margin-top: 41%;
-    color: white;
+    color: #d8d8d8;
     font-size: xx-large;
     cursor: pointer;
   }
   .enter {
     display: flex;
     padding: 10px;
-    border: solid #ffff 2px;
+    border: solid #d8d8d8 2px;
     margin-top: 42%;
-    color: white;
+    color: #d8d8d8;
     font-size: x-large;
     cursor: pointer;
     border-radius: 5px;
   }
   .bg2 {
-    background-image: url('/assets/5.jpg');
+    background-image: url('/assets/landingColor.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
