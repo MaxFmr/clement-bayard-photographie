@@ -2,15 +2,16 @@ import styled from 'styled-components';
 interface props {
   bgUrl: string;
 }
-const StyledCategory = styled.section<props>`
-  .category {
-    background-image: url(${(props) => props.bgUrl});
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    height: 1000px;
+const StyledWelcome = styled.section<props>`
+  .block {
+    height: 350px;
     width: 100vw;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+    }
   }
 `;
 
-export default StyledCategory;
+export default StyledWelcome;

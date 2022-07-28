@@ -32,7 +32,7 @@ const categories = [
   {
     id: 6,
     title: 'Videos',
-    url: '/assets/categories/street.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/video/upload/v1658861663/BAYARD_Cle%CC%81ment_Livrable_N_3_qa5shy.mp4',
     theme: 'video',
   },
 ];
