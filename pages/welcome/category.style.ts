@@ -12,14 +12,9 @@ const StyledWelcome = styled.section`
     img {
       object-fit: cover;
     }
+    #background-video {
+    }
   }
 `;
 
 export default StyledWelcome;
-
-export const StyledItem = styled.div<props>`
-  border: solid black 3px;
-  background-image: url(${(props) => props.bgUrl});
-  height: 350px;
-  background-size: cover;
-`;

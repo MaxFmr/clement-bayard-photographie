@@ -1,6 +1,6 @@
 import { Parallax } from 'react-scroll-parallax';
 import categories from './categories';
-import StyledWelcome, { StyledItem } from './category.style';
+import StyledWelcome from './category.style';
 
 const Welcome = () => {
   return (
@@ -16,19 +16,20 @@ const Welcome = () => {
         </Parallax>
       </div>
       <div className='block'>
-        <Parallax speed={-70}>
+        <Parallax speed={-70} startScroll={0} endScroll={1500}>
           <img src={categories[2].url} alt='' />{' '}
         </Parallax>
       </div>
       <div className='block'>
-        <Parallax speed={-50}>
+        <Parallax speed={-70} startScroll={200} endScroll={1500}>
           <img src={categories[3].url} alt='' />{' '}
         </Parallax>
       </div>
       <div className='block'>
-        <Parallax speed={-50}>
-          <video src={categories[5].url} loop autoPlay muted />{' '}
-        </Parallax>
+        <video id='background-video' loop autoPlay>
+          <source src={categories[3].url} type='video/mp4' />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </StyledWelcome>
   );
