@@ -49,6 +49,7 @@ const Home: NextPage = () => {
         <div className='name'>
           <span>Clement Bayard - Photographie</span>
         </div>
+
         <animated.div
           onClick={() => handleClick()}
           className='scrollDown'
