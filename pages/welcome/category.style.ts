@@ -11,6 +11,7 @@ const StyledWelcome = styled.section`
 
     img {
       object-fit: cover;
+      position: fixed;
     }
     #background-video {
     }
