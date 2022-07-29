@@ -25,9 +25,8 @@ const categories = [
   },
   {
     id: 5,
-    title:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109608/street_mmhpx7.jpg',
-    url: '/assets/categories/street.jpg',
+    title: "L'air de la ville rend libre",
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109608/street_mmhpx7.jpg',
     theme: 'street',
   },
   {

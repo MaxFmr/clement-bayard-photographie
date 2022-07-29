@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const StyledLandingPage = styled.section`
   height: 100vh;
 
-  font-family: 'JetBrains Mono', monospace;
   .insta {
     position: fixed;
     color: #3f3f3f;
