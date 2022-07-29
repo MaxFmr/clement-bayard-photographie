@@ -2,7 +2,13 @@ import styled from 'styled-components';
 
 const StyledLandingPage = styled.section`
   height: 100vh;
-  background-color: #3f3f3f;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 26%,
+    rgba(134, 137, 178, 1) 50%,
+    rgba(0, 212, 255, 1) 66%
+  );
   font-family: 'JetBrains Mono', monospace;
   .insta {
     position: fixed;
