@@ -8,7 +8,7 @@ const Header = (): JSX.Element => {
       <div className='instaHeader'>
         <InstagramButton />
       </div>
-      <div>
+      <div className='title'>
         <span>Clément Bayard - Photographe et Videaste</span>
       </div>
     </StyledHeader>

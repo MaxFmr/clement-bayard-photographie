@@ -11,25 +11,31 @@ const StyledWelcome = styled.section`
   width: 100%;
   position: absolute;
   .container1 {
+    cursor: pointer;
     display: flex;
     height: 300px;
-    position: relative;
     @media (max-width: 700px) {
       height: 150px;
     }
   }
   .item {
-    :hover {
-      opacity: 1;
-    }
     color: white;
+    border: solid #d8d8d8 1px;
+    border-radius: 5px;
+
     .title {
-      position: relative;
       z-index: 1;
+    }
+
+    .parallax {
+      :focus {
+        opacity: 0.6;
+      }
     }
   }
   .title {
-    position: fixed;
+    margin-left: 2%;
+    margin-top: 20px;
   }
   .videoItem {
     display: flex;

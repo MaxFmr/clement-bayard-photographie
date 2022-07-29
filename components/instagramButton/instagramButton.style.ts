@@ -15,7 +15,7 @@ const StyledInstagramButton = styled.div`
     top: 3%;
     left: 5%;
     opacity: 0.9;
-    padding: 2px 3px;
+    padding: 2px 10px;
     @media (max-width: 700px) {
       top: 12%;
     }

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useRef } from 'react';
 import Image from 'next/image';
+import InstagramButton from '../components/instagramButton';
 
 const Home: NextPage = () => {
   const ref = useRef<null | HTMLDivElement>(null);
@@ -30,21 +31,7 @@ const Home: NextPage = () => {
 
   return (
     <StyledLandingPage>
-      <a
-        href='https://www.instagram.com/clementbayard/?hl=fr'
-        rel='noopener noreferrer'
-        target='_blank'>
-        <div className='insta'>
-          <Image
-            src={'/assets/insta.png'}
-            width={30}
-            height={30}
-            alt='instagram logo'
-          />
-          <span>Instagram</span>
-        </div>
-      </a>
-
+      <InstagramButton />
       <div className='bg'>
         <div className='name'>
           <span>Clement Bayard - Photographie</span>

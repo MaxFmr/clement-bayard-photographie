@@ -12,20 +12,22 @@ const Welcome = () => {
           if (category.theme !== 'video') {
             return (
               <div className='item' onClick={() => console.log('click')}>
-                <div className='title'>
-                  <h2>{category.title}</h2>
-                </div>
-
                 <ParallaxBanner
+                  className='parallax'
+                  style={{ cursor: 'pointer' }}
                   layers={[
                     {
                       image: category.url,
                       speed: -40,
-                      children: <div style={{ cursor: 'pointer' }} />,
+                      children: <div />,
                       opacity: [0.9, 1],
                     },
                   ]}>
-                  <div className='container1'></div>
+                  <div className='container1'>
+                    <div className='title'>
+                      <h3>{category.title}</h3>
+                    </div>
+                  </div>
                 </ParallaxBanner>
               </div>
             );

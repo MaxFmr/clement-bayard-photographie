@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const StyledHeader = styled.header`
   display: flex;
   align-items: center;
-
   font-family: 'JetBrains Mono', monospace;
   color: white;
   background: rgb(2, 0, 36);
@@ -16,18 +15,21 @@ const StyledHeader = styled.header`
   );
   height: 100px;
   position: fixed;
-  z-index: 1;
   width: 100%;
   border-radius: 5px;
   border: solid #d8d8d8 1px;
-  opacity: 0.8;
+  opacity: 0.84;
   @media (max-width: 700px) {
     height: 50px;
     font-size: small;
   }
-  span {
-    font-size: larger;
+  .title {
+    span {
+      font-weight: bold;
+      font-size: x-large;
+    }
   }
+
   .instaHeader {
     margin-left: 30%;
   }
