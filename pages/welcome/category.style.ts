@@ -3,8 +3,9 @@ interface props {
   bgUrl: string;
 }
 const StyledWelcome = styled.section`
+  background-color: black;
   .block {
-    height: 350px;
+    height: 250px;
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -14,6 +15,7 @@ const StyledWelcome = styled.section`
       position: fixed;
     }
     #background-video {
+      padding-top: 5%;
     }
   }
 `;

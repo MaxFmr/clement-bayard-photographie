@@ -49,6 +49,7 @@ const StyledLandingPage = styled.section`
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    image-rendering: optimize-contrast; /* CSS3 Proposed       */
   }
   .scrollDown {
     margin-top: 41%;
@@ -72,7 +73,7 @@ const StyledLandingPage = styled.section`
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    @media (max-width: 570px) {
+    @media (max-width: 1200px) {
       background-position: center;
     }
     display: flex;
