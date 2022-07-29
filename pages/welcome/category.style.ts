@@ -1,22 +1,13 @@
 import styled from 'styled-components';
-interface props {
+
+interface Props {
+  categoryId: number;
   bgUrl: string;
 }
-const StyledWelcome = styled.section`
-  background-color: black;
-  .block {
-    height: 250px;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-
-    img {
-      object-fit: cover;
-      position: fixed;
-    }
-    #background-video {
-      padding-top: 5%;
-    }
+const StyledWelcome = styled.section<Props>`
+  width: 100%;
+  .container1 {
+    height: 300px;
   }
 `;
 
