@@ -5,7 +5,12 @@ import InstagramButton from '../instagramButton';
 const Header = (): JSX.Element => {
   return (
     <StyledHeader>
-      <InstagramButton />
+      <div className='instaHeader'>
+        <InstagramButton />
+      </div>
+      <div>
+        <span>Clément Bayard - Photographe et Videaste</span>
+      </div>
     </StyledHeader>
   );
 };

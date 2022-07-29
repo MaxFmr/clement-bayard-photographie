@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
+  display: flex;
+  align-items: center;
+
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
   background: rgb(2, 0, 36);
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -18,6 +23,13 @@ const StyledHeader = styled.header`
   opacity: 0.8;
   @media (max-width: 700px) {
     height: 50px;
+    font-size: small;
+  }
+  span {
+    font-size: larger;
+  }
+  .instaHeader {
+    margin-left: 30%;
   }
 `;
 
