@@ -35,9 +35,12 @@ const Home: NextPage = () => {
         <div className='brand'>
           <span>Clement Bayard </span>
         </div>
-        <span>Photographe</span>
-        <span>&</span>
-        <span>Videaste</span>
+        <div className='work'>
+          <span>Photographe</span>
+          <span>&</span>
+          <span>Videaste</span>
+        </div>
+
         <InstagramButton />
       </div>
       <div className='bg'>

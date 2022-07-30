@@ -22,6 +22,12 @@ const StyledLandingPage = styled.section`
       font-size: 30px;
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    .work {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
     }
   }
 
