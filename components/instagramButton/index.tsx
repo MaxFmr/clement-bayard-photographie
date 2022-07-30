@@ -15,7 +15,6 @@ const InstagramButton = (): JSX.Element => {
             height={30}
             alt='instagram logo'
           />
-          <span>Instagram</span>
         </div>
       </a>
     </StyledInstagramButton>

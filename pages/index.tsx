@@ -31,12 +31,16 @@ const Home: NextPage = () => {
 
   return (
     <StyledLandingPage>
-      <InstagramButton />
-      <div className='bg'>
-        <div className='name'>
-          <span>Clement Bayard - Photographie</span>
+      <div className='name'>
+        <div className='brand'>
+          <span>Clement Bayard </span>
         </div>
-
+        <span>Photographe</span>
+        <span>&</span>
+        <span>Videaste</span>
+        <InstagramButton />
+      </div>
+      <div className='bg'>
         <animated.div
           onClick={() => handleClick()}
           className='scrollDown'

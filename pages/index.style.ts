@@ -4,37 +4,25 @@ const StyledLandingPage = styled.section`
   height: 100vh;
 
   .insta {
-    position: fixed;
-    color: #3f3f3f;
-    background-color: #d8d8d8;
-    display: flex;
-    align-items: center;
-    padding: 0 5px;
-    border-radius: 5px;
-    top: 3%;
-    left: 5%;
-    opacity: 0.9;
-    padding: 2px 3px;
-    @media (max-width: 700px) {
-      top: 12%;
-    }
-    :hover {
-      opacity: 1;
-    }
+    margin-top: 10px;
+    margin-left: 1px;
   }
-
   .name {
-    position: fixed;
-    top: 3%;
-    height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    text-align: center;
+    padding: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #d8d8d8;
-    cursor: default;
-    font-size: larger;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7%;
+    color: white;
+    .brand {
+      font-size: 30px;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 10px;
+    }
   }
 
   .bg {
@@ -51,8 +39,11 @@ const StyledLandingPage = styled.section`
     image-rendering: optimize-contrast; /* CSS3 Proposed       */
   }
   .scrollDown {
-    margin-top: 41%;
-    color: #d8d8d8;
+    border: solid 1px;
+    padding: 1%;
+    border-radius: 5px;
+    margin-top: 80vh;
+    color: #ffff;
     font-size: xx-large;
     cursor: pointer;
   }
@@ -60,7 +51,7 @@ const StyledLandingPage = styled.section`
     display: flex;
     padding: 10px;
     border: solid #d8d8d8 2px;
-    margin-top: 42%;
+    margin-top: 75vh;
     color: #d8d8d8;
     font-size: x-large;
     cursor: pointer;
