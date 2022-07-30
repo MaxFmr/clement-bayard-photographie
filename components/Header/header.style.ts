@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
   align-items: center;
   padding-left: 5%;
   font-size: 30px;
-  opacity: 0.6;
+  opacity: 0.5;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
 `;
 
