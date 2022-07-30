@@ -62,6 +62,7 @@ const StyledLandingPage = styled.section`
     font-size: x-large;
     cursor: pointer;
     border-radius: 5px;
+    align-items: center;
   }
   .bg2 {
     background-image: url('/assets/landingColor.jpg');
