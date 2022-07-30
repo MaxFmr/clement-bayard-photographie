@@ -9,27 +9,31 @@ const Welcome = () => {
       <Header />
       <StyledWelcome>
         {categories.map((category) => {
-          if (category.theme !== 'video') {
+          if (category.title !== 'Videos') {
             return (
-              <div className='item' onClick={() => console.log('click')}>
-                <ParallaxBanner
-                  className='parallax'
-                  style={{ cursor: 'pointer' }}
-                  layers={[
-                    {
-                      image: category.url,
-                      speed: -40,
-                      children: <div />,
-                      opacity: [0.9, 1],
-                    },
-                  ]}>
-                  <div className='container1'>
-                    <div className='title'>
-                      <h3>{category.title}</h3>
-                    </div>
+              <ParallaxBanner
+                className='parallax'
+                style={{ cursor: 'pointer' }}
+                layers={[
+                  {
+                    image: category.url,
+                    speed: -40,
+                    opacity: [0.9, 1],
+                  },
+                ]}>
+                <div className='container1'>
+                  <div
+                    className='title'
+                    style={
+                      category.id % 2 !== 0
+                        ? { left: '10vw' }
+                        : { left: '71vw' }
+                    }>
+                    <h3>{category.theme}</h3>
+                    <span>{category.title}</span>
                   </div>
-                </ParallaxBanner>
-              </div>
+                </div>
+              </ParallaxBanner>
             );
           }
         })}

@@ -4,7 +4,6 @@ const StyledWelcome = styled.section`
   font-family: 'JetBrains Mono', monospace;
 
   position: absolute;
-  margin-top: 100px;
   @media (max-width: 700px) {
     margin-top: 50px;
   }
@@ -13,30 +12,37 @@ const StyledWelcome = styled.section`
   .container1 {
     cursor: pointer;
     display: flex;
-    height: 300px;
+    height: 400px;
     @media (max-width: 700px) {
       height: 150px;
     }
   }
-  .item {
-    color: white;
-    border: solid #d8d8d8 1px;
-    border-radius: 5px;
+  color: white;
+  border-radius: 5px;
 
+  .parallax {
+    display: flex;
+    :hover {
+      opacity: 0.8;
+    }
     .title {
       z-index: 1;
+      color: #f7f7f7;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      position: relative;
+      flex-direction: column;
+      top: 175px;
     }
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: #ffff;
+      text-transform: uppercase;
+    }
+  }
 
-    .parallax {
-      :focus {
-        opacity: 0.6;
-      }
-    }
-  }
-  .title {
-    margin-left: 2%;
-    margin-top: 20px;
-  }
   .videoItem {
     display: flex;
     height: 300px;
@@ -46,10 +52,13 @@ const StyledWelcome = styled.section`
     @media (max-width: 700px) {
       height: 150px;
     }
+    .titleVideo {
+    }
     video {
       height: 300px;
       object-fit: cover;
       width: 100%;
+      position: relative;
     }
   }
 `;

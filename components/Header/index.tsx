@@ -1,15 +1,11 @@
 import StyledHeader from './header.style';
 import Image from 'next/image';
-import InstagramButton from '../instagramButton';
 
 const Header = (): JSX.Element => {
   return (
     <StyledHeader>
-      <div className='instaHeader'>
-        <InstagramButton />
-      </div>
       <div className='title'>
-        <span>Clément Bayard - Photographe et Videaste</span>
+        <span>CLEMENT BAYARD</span>
       </div>
     </StyledHeader>
   );
