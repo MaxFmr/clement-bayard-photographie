@@ -5,7 +5,6 @@ const StyledWelcome = styled.section`
 
   position: absolute;
   @media (max-width: 700px) {
-    margin-top: 50px;
   }
   width: 100%;
   position: absolute;

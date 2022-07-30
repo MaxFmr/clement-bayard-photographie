@@ -48,7 +48,7 @@ const StyledLandingPage = styled.section`
     border: solid 1px;
     padding: 1%;
     border-radius: 5px;
-    margin-top: 80vh;
+    margin-top: 83vh;
     color: #ffff;
     font-size: xx-large;
     cursor: pointer;
