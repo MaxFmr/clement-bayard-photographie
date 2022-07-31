@@ -13,16 +13,17 @@ const categories = [
   },
   {
     id: 3,
-    title: 'Contemplez le monde qui vous entoure',
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109608/view_zahswt.jpg',
-    theme: 'Paysages',
-  },
-  {
-    id: 4,
     title: 'Manger avec les yeux',
     url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109608/food_pvqeur.jpg',
     theme: 'Photographie culinaire',
   },
+  {
+    id: 4,
+    title: 'Contemplez le monde qui vous entoure',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109608/view_zahswt.jpg',
+    theme: 'Paysages',
+  },
+
   {
     id: 5,
     title: "L'air de la ville rend libre",

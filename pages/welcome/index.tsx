@@ -17,7 +17,7 @@ const Welcome = () => {
                 layers={[
                   {
                     image: category.url,
-                    speed: -40,
+                    speed: -30,
                     opacity: [0.9, 1],
                   },
                 ]}>
@@ -25,7 +25,7 @@ const Welcome = () => {
                   <div
                     className='title'
                     style={
-                      category.id % 2 !== 0
+                      category.id % 2 === 0
                         ? { left: '10vw' }
                         : { left: '71vw' }
                     }>
@@ -37,9 +37,6 @@ const Welcome = () => {
             );
           }
         })}
-        <div className='videoItem'>
-          <video src={categories[5].url} autoPlay loop muted></video>
-        </div>
       </StyledWelcome>
     </>
   );

@@ -15,14 +15,12 @@ const StyledWelcome = styled.section`
     @media (max-width: 700px) {
       height: 150px;
     }
-    @media (max-width: 1440px) {
-      height: 300px;
-    }
   }
   color: white;
   border-radius: 5px;
 
   .parallax {
+    margin: 5px 0px 5px 0px;
     display: flex;
     :hover {
       opacity: 0.8;
@@ -37,9 +35,6 @@ const StyledWelcome = styled.section`
       position: relative;
       flex-direction: column;
       top: 175px;
-      @media (max-width: 1440px) {
-        top: 120px;
-      }
     }
     h3 {
       font-family: 'Montserrat', sans-serif;
