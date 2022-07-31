@@ -5,7 +5,7 @@ const Header = (): JSX.Element => {
   return (
     <StyledHeader>
       <div className='title'>
-        <span>CLEMENT BAYARD</span>
+        <span>Clément Bayard</span>
       </div>
     </StyledHeader>
   );
