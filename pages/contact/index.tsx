@@ -1,4 +1,11 @@
+import Header from '../../components/Header';
+
 const ContactPage = (): JSX.Element => {
-  return <div>contact</div>;
+  return (
+    <>
+      <Header />
+      <div>contact</div>
+    </>
+  );
 };
 export default ContactPage;

@@ -1,4 +1,11 @@
+import Header from '../../components/Header';
+
 const FoodPage = (): JSX.Element => {
-  return <div>foodPage</div>;
+  return (
+    <>
+      <Header />
+      <div>foodPage</div>;
+    </>
+  );
 };
 export default FoodPage;
