@@ -2,8 +2,10 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import categories from './categories';
 import StyledWelcome from './category.style';
 import Header from '../../components/Header';
+import { useRouter } from 'next/router';
 
 const Welcome = () => {
+  const router = useRouter();
   return (
     <>
       <Header />
@@ -12,6 +14,7 @@ const Welcome = () => {
           if (category.title !== 'Videos') {
             return (
               <ParallaxBanner
+                onClick={() => router.push(`${category.path}`)}
                 className='parallax'
                 style={{ cursor: 'pointer' }}
                 layers={[

@@ -1,7 +1,7 @@
 import StyledHeader from './header.style';
-import Image from 'next/image';
-
+import { useRouter } from 'next/router';
 const Header = (): JSX.Element => {
+  const router = useRouter();
   return (
     <StyledHeader>
       <div className='title'>
@@ -9,9 +9,9 @@ const Header = (): JSX.Element => {
       </div>
 
       <div className='buttons'>
-        <button>Contact</button>
-        <button>Videos</button>
-        <button>Blog</button>
+        <button onClick={() => router.push('/contact')}>Contact</button>
+        <button onClick={() => router.push('/videos')}>Videos</button>
+        <button onClick={() => router.push('/blog')}>Blog</button>
       </div>
     </StyledHeader>
   );
