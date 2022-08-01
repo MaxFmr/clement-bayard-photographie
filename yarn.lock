@@ -1492,6 +1492,14 @@
     "@react-spring/shared" "~9.5.2"
     "@react-spring/types" "~9.5.2"
 
+"@react-spring/parallax@^9.5.2":
+  "integrity" "sha512-1LoJODtccFA7EARDJb1ZesI1jx4/HqBUy7f2UQRt1tWHviVG9imoSTP8S0KqDmGxXaA1itUUvo690bpw02pwzQ=="
+  "resolved" "https://registry.npmjs.org/@react-spring/parallax/-/parallax-9.5.2.tgz"
+  "version" "9.5.2"
+  dependencies:
+    "@react-spring/shared" "~9.5.2"
+    "@react-spring/web" "~9.5.2"
+
 "@react-spring/rafz@~9.5.2":
   "integrity" "sha512-xHSRXKKBI/wDUkZGrspkOm4VlgN6lZi8Tw9Jzibp9QKf3neoof+U2mDNgklvnLaasymtUwAq9o4ZfFvQIVNgPQ=="
   "resolved" "https://registry.npmjs.org/@react-spring/rafz/-/rafz-9.5.2.tgz"
@@ -7004,7 +7012,7 @@
     "resize-observer-polyfill" "^1.5.1"
     "scheduler" "0.13.3"
 
-"react@^16.0.0", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0  || >=17.0.0 || >=18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0-0 || >=17.0.1", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8", "react@18.2.0":
+"react@^16.0.0", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0  || >=17.0.0 || >=18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0-0 || >=17.0.1", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8", "react@>=16.9.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -8307,6 +8315,11 @@
   "integrity" "sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ=="
   "resolved" "https://registry.npmjs.org/use/-/use-3.1.1.tgz"
   "version" "3.1.1"
+
+"usehooks-ts@^2.6.0":
+  "integrity" "sha512-Kj/4oc2nOxRDGTDb2v1ZulF7+tpeXFuqI6cUesM0Vic7TPPDlFORxKh4ivsYg+NTvX/YbM+lhqqkfFTiIt23eg=="
+  "resolved" "https://registry.npmjs.org/usehooks-ts/-/usehooks-ts-2.6.0.tgz"
+  "version" "2.6.0"
 
 "util-deprecate@^1.0.1", "util-deprecate@~1.0.1":
   "integrity" "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
