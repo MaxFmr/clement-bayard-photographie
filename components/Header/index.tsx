@@ -7,6 +7,12 @@ const Header = (): JSX.Element => {
       <div className='title'>
         <span>Clément Bayard</span>
       </div>
+
+      <div className='buttons'>
+        <button>Contact</button>
+        <button>Videos</button>
+        <button>Blog</button>
+      </div>
     </StyledHeader>
   );
 };
