@@ -32,7 +32,7 @@ const StyledLandingPage = styled.section`
   }
 
   .bg {
-    background-image: url('/assets/landingBW.jpg');
+    background-image: url('https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/landingbg_maylva.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -65,7 +65,7 @@ const StyledLandingPage = styled.section`
     align-items: center;
   }
   .bg2 {
-    background-image: url('/assets/landingColor.jpg');
+    background-image: url('https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866111/DSC00960_chhrcy.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;

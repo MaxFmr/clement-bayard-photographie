@@ -13,7 +13,9 @@ const StyledHeader = styled.header`
   opacity: 0.7;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
   justify-content: space-around;
-
+  .title {
+    cursor: default;
+  }
   .buttons {
     width: 30%;
     display: flex;

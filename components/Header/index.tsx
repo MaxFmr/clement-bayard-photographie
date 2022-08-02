@@ -4,7 +4,7 @@ const Header = (): JSX.Element => {
   const router = useRouter();
   return (
     <StyledHeader>
-      <div className='title'>
+      <div className='title' onClick={() => router.push('/')}>
         <span>Clément Bayard</span>
       </div>
 
