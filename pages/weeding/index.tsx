@@ -56,7 +56,9 @@ const WeedingPage = (): JSX.Element => {
             />
           </div>
         </div>
-        <ImageGallery items={images} />
+        <div className='gallery'>
+          <ImageGallery items={images} />
+        </div>
       </StyledWeedingPage>
     </>
   );
