@@ -58,6 +58,7 @@ const Welcome = () => {
           if (category.title !== 'Videos') {
             return (
               <ParallaxBanner
+                key={category.id}
                 onClick={() => router.push(`${category.path}`)}
                 className='parallax'
                 style={{ cursor: 'pointer' }}
@@ -76,6 +77,10 @@ const Welcome = () => {
                         ? { left: '10vw' }
                         : { left: '71vw' }
                     }>
+                    <h3>{category.theme}</h3>
+                    <span>{category.title}</span>
+                  </div>
+                  <div className='phoneDisplayTitle'>
                     <h3>{category.theme}</h3>
                     <span>{category.title}</span>
                   </div>
