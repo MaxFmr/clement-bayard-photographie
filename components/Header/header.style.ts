@@ -5,6 +5,9 @@ const StyledHeader = styled.header`
   color: #ffff;
   display: flex;
   height: 130px;
+  @media (max-width: 700px) {
+    height: 50px;
+  }
   background-color: black;
   display: flex;
   align-items: center;
@@ -24,6 +27,9 @@ const StyledHeader = styled.header`
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    @media (max-width: 700px) {
+      font-size: 14px;
+    }
     button {
       display: inline-block;
 

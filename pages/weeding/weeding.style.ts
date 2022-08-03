@@ -3,12 +3,19 @@ import styled from 'styled-components';
 const StyledWeedingPage = styled.section`
   width: 100%;
   .pricing {
-    h3 {
-      font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 700px) {
+      width: 100%;
+      font-size: 8px;
     }
     width: 65%;
     margin: 0 auto;
     margin-top: 5%;
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+    }
 
     .formula1 {
       margin-bottom: 2%;
@@ -25,6 +32,9 @@ const StyledWeedingPage = styled.section`
       }
       img {
         padding-right: 100px;
+        @media (max-width: 700px) {
+          padding: 0;
+        }
       }
     }
     .formula2 {
@@ -43,6 +53,9 @@ const StyledWeedingPage = styled.section`
 
         img {
           padding-left: 100px;
+          @media (max-width: 700px) {
+            padding: 0;
+          }
         }
       }
     }
@@ -58,20 +71,26 @@ const StyledWeedingPage = styled.section`
         background-color: #151438;
         img {
           padding-right: 100px;
+          @media (max-width: 700px) {
+            padding: 0;
+          }
         }
       }
     }
   }
-  .caroussel {
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 5%;
-    img {
-      width: 80%;
+
+  .gallery {
+    .caroussel {
+      width: 90%;
       height: auto;
       margin: 0 auto;
-      object-fit: contain;
+      margin-top: 5%;
+      img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+      }
     }
   }
 `;
