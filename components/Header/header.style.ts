@@ -5,6 +5,9 @@ const StyledHeader = styled.header`
   color: #ffff;
   display: flex;
   height: 130px;
+  @media (max-width: 700px) {
+    height: 50px;
+  }
   background-color: black;
   display: flex;
   align-items: center;
@@ -13,12 +16,20 @@ const StyledHeader = styled.header`
   opacity: 0.7;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
   justify-content: space-around;
-
+  .title {
+    cursor: default;
+    @media (max-width: 700px) {
+      display: none;
+    }
+  }
   .buttons {
     width: 30%;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    @media (max-width: 700px) {
+      font-size: 14px;
+    }
     button {
       display: inline-block;
 

@@ -1,4 +1,11 @@
+import Header from '../../components/Header';
+
 const PortraitsPage = (): JSX.Element => {
-  return <div>portraits</div>;
+  return (
+    <>
+      <Header />
+      <div>portraits</div>;
+    </>
+  );
 };
 export default PortraitsPage;

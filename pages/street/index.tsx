@@ -1,4 +1,11 @@
-const streetPage = (): JSX.Element => {
-  return <div>streetPage</div>;
+import Header from '../../components/Header';
+
+const StreetPage = (): JSX.Element => {
+  return (
+    <>
+      <Header />
+      <div>streetPage</div>
+    </>
+  );
 };
-export default streetPage;
+export default StreetPage;

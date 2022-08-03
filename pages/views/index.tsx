@@ -1,4 +1,11 @@
+import Header from '../../components/Header';
+
 const ViewsPage = (): JSX.Element => {
-  return <div>ViewsPage</div>;
+  return (
+    <>
+      <Header />
+      <div>ViewsPage</div>
+    </>
+  );
 };
 export default ViewsPage;
