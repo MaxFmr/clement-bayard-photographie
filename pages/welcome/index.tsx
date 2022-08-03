@@ -79,6 +79,10 @@ const Welcome = () => {
                     <h3>{category.theme}</h3>
                     <span>{category.title}</span>
                   </div>
+                  <div className='phoneDisplayTitle'>
+                    <h3>{category.theme}</h3>
+                    <span>{category.title}</span>
+                  </div>
                 </div>
               </ParallaxBanner>
             );
