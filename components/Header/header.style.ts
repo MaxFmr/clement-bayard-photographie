@@ -15,6 +15,9 @@ const StyledHeader = styled.header`
   justify-content: space-around;
   .title {
     cursor: default;
+    @media (max-width: 700px) {
+      display: none;
+    }
   }
   .buttons {
     width: 30%;

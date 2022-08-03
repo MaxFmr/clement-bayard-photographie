@@ -9,7 +9,7 @@ const categories = [
   {
     id: 2,
     title: 'Le plus beau jour de deux vies',
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/wedding_vvf6tc.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/wedding_vvf6tc.jpg',
     theme: 'Mariages',
     path: '/weeding',
   },
