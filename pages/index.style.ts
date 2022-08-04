@@ -39,7 +39,7 @@ const StyledLandingPage = styled.section`
   }
   .scrollDown {
     border: solid 1px;
-    padding: 2%;
+    padding: 10px;
     border-radius: 5px;
     margin-top: 83vh;
     color: #ffff;
