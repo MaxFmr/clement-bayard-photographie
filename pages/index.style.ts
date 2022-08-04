@@ -38,12 +38,12 @@ const StyledLandingPage = styled.section`
     justify-content: center;
   }
   .scrollDown {
-    border: solid 1px;
+    border: solid 1.5px;
     padding: 10px;
     border-radius: 5px;
     margin-top: 83vh;
     color: #ffff;
-    font-size: xx-large;
+    font-size: x-large;
     cursor: pointer;
     position: fixed;
     z-index: 3;

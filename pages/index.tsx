@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
     setTimeout(() => {
       router.push('/welcome');
-    }, 1500);
+    }, 1700);
   };
 
   return (
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               expanded: false,
             },
           ]}
-          style={{ height: '100%', border: 'solid' }}
+          style={{ height: '100%' }}
         />
         <animated.div
           onClick={() => handleClick()}
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
               output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
             }),
           }}>
-          GO ↓
+          Entrer ↓
         </animated.div>
       </div>
       <div className='bg2' ref={ref}>
@@ -76,7 +76,6 @@ const Home: NextPage = () => {
           ]}
           style={{
             aspectRatio: '2 / 1',
-            border: 'solid',
           }}
         />
       </div>
