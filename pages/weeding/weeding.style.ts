@@ -2,13 +2,17 @@ import styled from 'styled-components';
 
 const StyledWeedingPage = styled.section`
   width: 100%;
+
   .pricing {
-    font-size: smaller;
+    font-size: 12px;
     background-color: #393a5f;
+    display: flex;
+    font-size: 10px;
 
     img {
       object-fit: cover;
       border-radius: 15px;
+      height: 100%;
     }
     display: flex;
     flex-direction: column;
@@ -17,9 +21,8 @@ const StyledWeedingPage = styled.section`
     background-color: #46466d;
     @media (max-width: 750px) {
       width: 92%;
-      font-size: 10px;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 570px) {
       width: 90%;
       font-size: 7px;
       .txt {
@@ -54,11 +57,11 @@ const StyledWeedingPage = styled.section`
         height: 100%;
         background-color: #393a5f;
         border-radius: 15px;
-      }
-      img {
-        padding-right: 100px;
-        @media (max-width: 700px) {
-          padding: 0;
+        img {
+          padding-right: 100px;
+          @media (max-width: 900px) {
+            padding: 0;
+          }
         }
       }
     }
@@ -87,7 +90,7 @@ const StyledWeedingPage = styled.section`
 
         img {
           padding-left: 100px;
-          @media (max-width: 700px) {
+          @media (max-width: 900px) {
             padding: 0;
           }
         }
@@ -114,7 +117,7 @@ const StyledWeedingPage = styled.section`
         background-color: #393a5e;
         img {
           padding-right: 100px;
-          @media (max-width: 700px) {
+          @media (max-width: 900px) {
             padding: 0;
           }
         }
