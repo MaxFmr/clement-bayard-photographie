@@ -19,6 +19,14 @@ const StyledWeedingPage = styled.section`
       width: 92%;
       font-size: 10px;
     }
+    @media (max-width: 400px) {
+      width: 90%;
+      font-size: 7px;
+      .txt {
+        margin: 4px 0px;
+      }
+    }
+
     width: 65%;
     margin: 0 auto;
     margin-top: 5%;
