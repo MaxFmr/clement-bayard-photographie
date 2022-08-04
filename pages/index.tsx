@@ -4,8 +4,8 @@ import { useSpring, animated } from '@react-spring/web';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useRef } from 'react';
-import Image from 'next/image';
 import InstagramButton from '../components/instagramButton';
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 const Home: NextPage = () => {
   const ref = useRef<null | HTMLDivElement>(null);
@@ -18,15 +18,12 @@ const Home: NextPage = () => {
     config: { duration: 1000 },
   });
 
-  const handleClick = () => {
+  const handleClick = async () => {
     toggle(!state);
     ref.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-  const handleClickEnter = () => {
-    toggle(!state);
     setTimeout(() => {
       router.push('/welcome');
-    }, 1000);
+    }, 1500);
   };
 
   return (
@@ -44,6 +41,16 @@ const Home: NextPage = () => {
         <InstagramButton />
       </div>
       <div className='bg'>
+        <ParallaxBanner
+          layers={[
+            {
+              image: '/assets/landingBW.jpg',
+              speed: -10,
+              expanded: false,
+            },
+          ]}
+          style={{ height: '100%', border: 'solid' }}
+        />
         <animated.div
           onClick={() => handleClick()}
           className='scrollDown'
@@ -58,20 +65,20 @@ const Home: NextPage = () => {
         </animated.div>
       </div>
       <div className='bg2' ref={ref}>
-        <animated.div
-          onClick={() => {
-            handleClickEnter();
-          }}
-          className='enter'
+        <ParallaxBanner
+          layers={[
+            {
+              image:
+                'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/DSC00960_chhrcy.jpg',
+              speed: -20,
+              shouldAlwaysCompleteAnimation: true,
+            },
+          ]}
           style={{
-            opacity: x.to({ range: [0, 1], output: [0.3, 1] }),
-            scale: x.to({
-              range: [0, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 1],
-              output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
-            }),
-          }}>
-          Entrer
-        </animated.div>{' '}
+            aspectRatio: '2 / 1',
+            border: 'solid',
+          }}
+        />
       </div>
     </StyledLandingPage>
   );
