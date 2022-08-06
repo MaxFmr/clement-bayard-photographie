@@ -12,7 +12,6 @@ const StyledWeedingPage = styled.section`
     img {
       object-fit: cover;
       border-radius: 15px;
-      height: 100%;
     }
     display: flex;
     flex-direction: column;
@@ -21,6 +20,9 @@ const StyledWeedingPage = styled.section`
     background-color: #46466d;
     @media (max-width: 750px) {
       width: 92%;
+    }
+    @media (max-width: 1120px) {
+      font-size: 10px;
     }
     @media (max-width: 570px) {
       width: 90%;

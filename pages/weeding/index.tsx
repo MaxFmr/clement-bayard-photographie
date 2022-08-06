@@ -1,8 +1,8 @@
 import Header from '../../components/Header';
 import StyledWeedingPage from './weeding.style';
 import ImageGallery from 'react-image-gallery';
+import Image from 'next/image';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { Box } from '@mui/system';
 
 export const images = [
   {
@@ -117,51 +117,64 @@ const WeedingPage = (): JSX.Element => {
       <Header />
       <StyledWeedingPage>
         <div className='pricing'>
-          <Box sx={{ backgroundColor: '#393a5f' }}>
-            <div className='formula1'>
-              <div className='txt'>
-                <h3>Formule Coquelicot</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  asperiores laudantium eveniet neque temporibus! Quaerat,
-                  facere vero veniam porro odio accusamus illum praesentium
-                  aliquid
-                </p>
-              </div>
+          <div className='formula1'>
+            <div className='txt'>
+              <h3>Formule Coquelicot</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                asperiores laudantium eveniet neque temporibus! Quaerat, facere
+                vero veniam porro odio accusamus illum praesentium aliquid
+              </p>
+            </div>
 
-              <div className='bg'>
-                <img src='/assets/wedding/coqueliquot.jpg' />
-              </div>
+            <div className='bg'>
+              <Image
+                src='/assets/wedding/coqueliquot.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+              />
             </div>
-            <div className='formula2'>
-              <div className='bg'>
-                <img src='/assets/wedding/muguet.jpg' />
-              </div>
-              <div className='txt'>
-                <h3>Formule Muguet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  asperiores laudantium eveniet neque temporibus! Quaerat,
-                  facere vero veniam porro odio accusamus illum praesentium
-                  aliquid
-                </p>
-              </div>
+          </div>
+          <div className='formula2'>
+            <div className='bg'>
+              <Image
+                src='/assets/wedding/muguet.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+              />
             </div>
-            <div className='formula3'>
-              <div className='txt'>
-                <h3>Formule Camelia</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  asperiores laudantium eveniet neque temporibus! Quaerat,
-                  facere vero veniam porro odio accusamus illum praesentium
-                  aliquid
-                </p>
-              </div>
-              <div className='bg'>
-                <img src='/assets/wedding/fleurerose.jpg' />
-              </div>
+            <div className='txt'>
+              <h3>Formule Muguet</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                asperiores laudantium eveniet neque temporibus! Quaerat, facere
+                vero veniam porro odio accusamus illum praesentium aliquid
+              </p>
             </div>
-          </Box>
+          </div>
+          <div className='formula3'>
+            <div className='txt'>
+              <h3>Formule Camelia</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                asperiores laudantium eveniet neque temporibus! Quaerat, facere
+                vero veniam porro odio accusamus illum praesentium aliquid
+              </p>
+            </div>
+            <div className='bg'>
+              <Image
+                src='/assets/wedding/fleureRose.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+              />{' '}
+            </div>
+          </div>
         </div>
 
         <div className='gallery'>
