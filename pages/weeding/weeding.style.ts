@@ -25,11 +25,12 @@ const StyledWeedingPage = styled.section`
       font-size: 10px;
     }
     @media (max-width: 570px) {
-      width: 90%;
+      width: 100%;
       font-size: 7px;
       .txt {
         margin: 4px 0px;
       }
+      padding: 10px;
     }
 
     width: 65%;
@@ -59,6 +60,7 @@ const StyledWeedingPage = styled.section`
         height: 100%;
         background-color: #393a5f;
         border-radius: 15px;
+
         img {
           padding-right: 100px;
           @media (max-width: 900px) {
