@@ -172,7 +172,7 @@ const WeedingPage = (): JSX.Element => {
                 sizes='100%'
                 height={100}
                 width={150}
-              />{' '}
+              />
             </div>
           </div>
         </div>
