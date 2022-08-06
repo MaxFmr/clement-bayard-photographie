@@ -34,14 +34,14 @@ const PortraitsPage = (): JSX.Element => {
             const path = setPath(photo.id);
 
             return (
-              <div className='container'>
+              <div className='container' key={photo.id}>
                 <Image
-                  key={photo.id}
                   src={path}
                   height={1000}
                   width={1000}
                   objectFit='contain'
                   style={{ borderRadius: '15px' }}
+                  alt={'portrait' + photo.id}
                 />
               </div>
             );
