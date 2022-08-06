@@ -8,6 +8,7 @@ const StyledLandingPage = styled.section`
     margin-left: 1px;
   }
   .name {
+    z-index: 2;
     text-align: center;
     padding: 1%;
     display: flex;
@@ -16,7 +17,7 @@ const StyledLandingPage = styled.section`
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: 7%;
+    top: 3%;
     color: white;
     .brand {
       font-size: 30px;
@@ -32,50 +33,25 @@ const StyledLandingPage = styled.section`
   }
 
   .bg {
-    background-image: url('https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/landingbg_maylva.jpg');
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    image-rendering: optimize-contrast; /* CSS3 Proposed       */
   }
   .scrollDown {
-    border: solid 1px;
-    padding: 1%;
+    border: solid 1.5px;
+    padding: 10px;
     border-radius: 5px;
     margin-top: 83vh;
     color: #ffff;
-    font-size: xx-large;
-    cursor: pointer;
-  }
-  .enter {
-    display: flex;
-    padding: 10px;
-    border: solid #d8d8d8 2px;
-    margin-top: 75vh;
-    color: #d8d8d8;
     font-size: x-large;
     cursor: pointer;
-    border-radius: 5px;
-    align-items: center;
+    position: fixed;
+    z-index: 3;
+    top: 3%;
   }
   .bg2 {
-    background-image: url('https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866111/DSC00960_chhrcy.jpg');
     height: 100vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    @media (max-width: 1200px) {
-      background-position: center;
-    }
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
 `;
 

@@ -29,6 +29,7 @@ const StyledHeader = styled.header`
     font-size: 20px;
     @media (max-width: 700px) {
       font-size: 14px;
+      justify-content: center;
     }
     button {
       display: inline-block;
