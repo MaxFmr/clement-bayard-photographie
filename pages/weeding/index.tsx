@@ -167,7 +167,7 @@ const WeedingPage = (): JSX.Element => {
             </div>
             <div className='bg'>
               <Image
-                src='/assets/wedding/fleureRose.jpg'
+                src='/assets/wedding/fleurerose.jpg'
                 layout='responsive'
                 sizes='100%'
                 height={100}
