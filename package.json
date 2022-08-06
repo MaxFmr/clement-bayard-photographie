@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.9.3",
+    "@mui/styled-engine-sc": "^5.9.3",
     "@react-spring/parallax": "^9.5.2",
     "@types/react-image-gallery": "^1.0.5",
     "next": "12.2.3",
