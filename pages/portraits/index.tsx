@@ -34,15 +34,16 @@ const PortraitsPage = (): JSX.Element => {
             const path = setPath(photo.id);
 
             return (
-              <Image
-                key={photo.id}
-                src={path}
-                height={550}
-                width={240}
-                objectFit='cover'
-                className={`div${photo.id}`}
-                style={{ borderRadius: '15px' }}
-              />
+              <div className='container'>
+                <Image
+                  key={photo.id}
+                  src={path}
+                  height={1000}
+                  width={1000}
+                  objectFit='contain'
+                  style={{ borderRadius: '15px' }}
+                />
+              </div>
             );
           })}
         </div>
