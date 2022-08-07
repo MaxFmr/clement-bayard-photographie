@@ -6,6 +6,9 @@ const StyledGallery = styled.section`
     padding: 0;
   }
   .closeButton {
+    @media (max-width: 750px) {
+      top: 5px;
+    }
     background: none;
     position: relative;
     border: none;
