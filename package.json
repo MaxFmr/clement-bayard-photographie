@@ -17,7 +17,6 @@
     "react-dom": "18.2.0",
     "react-image-gallery": "^1.2.9",
     "react-image-size": "^1.0.5",
-    "react-photo-album": "^1.16.1",
     "react-scroll-parallax": "^3.2.0",
     "react-spring": "^9.5.2",
     "styled-components": "^5.3.5",
