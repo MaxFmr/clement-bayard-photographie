@@ -12,6 +12,7 @@ interface GalleryProps {
 
 const Gallery = ({ photos }: GalleryProps): JSX.Element => {
   const [clicked, setClicked] = useState(false);
+  const [imgId, setImgId] = useState<number | undefined>(undefined);
 
   const photosGallery = photos.map((photo) => {
     return {
@@ -19,6 +20,10 @@ const Gallery = ({ photos }: GalleryProps): JSX.Element => {
       thumbnail: '/assets/portraits/' + photo.id + '.JPG',
     };
   });
+  const handleClick = (id: number) => {
+    setClicked(!clicked);
+    setImgId(id);
+  };
   return (
     <StyledGallery>
       {clicked ? (
@@ -30,6 +35,7 @@ const Gallery = ({ photos }: GalleryProps): JSX.Element => {
             items={photosGallery}
             useBrowserFullscreen={true}
             showThumbnails={false}
+            startIndex={imgId}
           />
         </div>
       ) : (
@@ -42,7 +48,7 @@ const Gallery = ({ photos }: GalleryProps): JSX.Element => {
                   className='container'
                   key={photo.id}
                   onClick={() => {
-                    setClicked(!clicked);
+                    handleClick(photo.id - 1);
                   }}>
                   <Image
                     src={pathPortraits}

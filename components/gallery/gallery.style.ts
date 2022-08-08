@@ -24,12 +24,13 @@ const StyledGallery = styled.section`
     }
   }
   .gallery {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-
+    padding-top: 20px;
+    padding-bottom: 20px;
     grid-column-gap: 15px;
     grid-row-gap: 30px;
     @media (max-width: 750px) {
