@@ -1,5 +1,4 @@
 import Header from '../../components/Header';
-import StyledPortraitsPage from './portraits.style';
 import Gallery from '../../components/gallery';
 
 const photos = [
@@ -21,9 +20,7 @@ const PortraitsPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <StyledPortraitsPage>
-        <Gallery photos={photos} />
-      </StyledPortraitsPage>
+      <Gallery photos={photos} page='portraits' />
     </>
   );
 };

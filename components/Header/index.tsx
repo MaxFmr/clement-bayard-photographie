@@ -11,7 +11,8 @@ const Header = (): JSX.Element => {
       <div className='buttons'>
         <button onClick={() => router.push('/contact')}>Contact</button>
         <button onClick={() => router.push('/videos')}>Videos</button>
-        <button onClick={() => router.push('/blog')}>Blog</button>
+        <button onClick={() => router.push('/infos')}>Qui suis-je ?</button>
+        {/* <button onClick={() => router.push('/blog')}>Blog</button> */}
       </div>
     </StyledHeader>
   );

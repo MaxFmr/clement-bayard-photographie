@@ -8,16 +8,17 @@ type photo = { id: number };
 
 interface GalleryProps {
   photos: photo[];
+  page: string;
 }
 
-const Gallery = ({ photos }: GalleryProps): JSX.Element => {
+const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
   const [clicked, setClicked] = useState(false);
   const [imgId, setImgId] = useState<number | undefined>(undefined);
 
   const photosGallery = photos.map((photo) => {
     return {
-      original: '/assets/portraits/' + photo.id + '.JPG',
-      thumbnail: '/assets/portraits/' + photo.id + '.JPG',
+      original: '/assets/' + page + '/' + photo.id + '.JPG',
+      thumbnail: '/assets/' + page + '/' + photo.id + '.JPG',
     };
   });
   const handleClick = (id: number) => {
@@ -41,7 +42,7 @@ const Gallery = ({ photos }: GalleryProps): JSX.Element => {
       ) : (
         <div className='gallery'>
           {photos.map((photo) => {
-            const pathPortraits = '/assets/portraits/' + photo.id + '.JPG';
+            let path = `/assets/${page}/${photo.id}.JPG`;
             return (
               <>
                 <div
@@ -51,7 +52,7 @@ const Gallery = ({ photos }: GalleryProps): JSX.Element => {
                     handleClick(photo.id - 1);
                   }}>
                   <Image
-                    src={pathPortraits}
+                    src={path}
                     height={1000}
                     width={1000}
                     objectFit='contain'
