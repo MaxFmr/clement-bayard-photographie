@@ -1,7 +1,9 @@
 import Header from '../../components/Header';
 import StyledWeedingPage from './weeding.style';
 import ImageGallery from 'react-image-gallery';
+import Image from 'next/image';
 import 'react-image-gallery/styles/css/image-gallery.css';
+
 export const images = [
   {
     original:
@@ -126,12 +128,24 @@ const WeedingPage = (): JSX.Element => {
             </div>
 
             <div className='bg'>
-              <img src='/assets/wedding/coqueliquot.jpg' />
+              <Image
+                src='/assets/wedding/coqueliquot.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+              />
             </div>
           </div>
           <div className='formula2'>
             <div className='bg'>
-              <img src='/assets/wedding/muguet.jpg' />
+              <Image
+                src='/assets/wedding/muguet.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+              />
             </div>
             <div className='txt'>
               <h3>Formule Muguet</h3>
@@ -152,10 +166,17 @@ const WeedingPage = (): JSX.Element => {
               </p>
             </div>
             <div className='bg'>
-              <img src='/assets/wedding/fleurerose.jpg' />
+              <Image
+                src='/assets/wedding/fleurerose.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+              />
             </div>
           </div>
         </div>
+
         <div className='gallery'>
           <ImageGallery items={images} additionalClass='caroussel' />
         </div>

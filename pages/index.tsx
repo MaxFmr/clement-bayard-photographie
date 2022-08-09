@@ -69,7 +69,7 @@ const Home: NextPage = () => {
           layers={[
             {
               image:
-                'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/DSC00960_chhrcy.jpg',
+                'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/DSC00960_chhrcy.jpg',
               speed: -20,
               shouldAlwaysCompleteAnimation: true,
             },
