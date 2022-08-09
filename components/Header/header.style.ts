@@ -23,9 +23,8 @@ const StyledHeader = styled.header`
     }
   }
   .buttons {
-    width: 30%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
     font-size: 20px;
     @media (max-width: 700px) {
       font-size: 14px;
