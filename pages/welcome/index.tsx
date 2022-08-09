@@ -27,7 +27,7 @@ const categories = [
   {
     id: 4,
     title: 'Contemplez le monde qui vous entoure',
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/view_zahswt.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1660038229/Cl%C3%A9ment%20Bayard%20Website/landscape/landscape14_ptgctu.jpg',
     theme: 'Paysages',
     path: '/landscapes',
   },
@@ -35,7 +35,7 @@ const categories = [
   {
     id: 5,
     title: "L'air de la ville rend libre",
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/street_mmhpx7.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/street_mmhpx7.jpg',
     theme: 'Street-photography',
     path: '/street',
   },
