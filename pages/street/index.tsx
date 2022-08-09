@@ -20,7 +20,7 @@ const StreetPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Gallery photos={photos} page='street' />
+      {/* <Gallery photos={photos} page='street' /> */}
     </>
   );
 };

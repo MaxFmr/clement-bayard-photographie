@@ -20,7 +20,7 @@ const PortraitsPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Gallery photos={photos} page='portraits' />
+      {/* <Gallery photos={photos} page='portraits' /> */}
     </>
   );
 };
