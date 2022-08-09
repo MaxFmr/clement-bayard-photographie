@@ -19,7 +19,7 @@ const StyledHeader = styled.header`
   .title {
     cursor: default;
     @media (max-width: 700px) {
-      display: none;
+      font-size: 14px;
     }
   }
   .buttons {
