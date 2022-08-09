@@ -27,7 +27,7 @@ const ViewsPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Gallery photos={photos} page='views' />
+      <Gallery photos={photos} page='landscape' />
     </>
   );
 };
