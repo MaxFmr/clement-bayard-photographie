@@ -44,7 +44,8 @@ const Home: NextPage = () => {
         <ParallaxBanner
           layers={[
             {
-              image: '/assets/landingBW.jpg',
+              image:
+                'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/landingbg_maylva.jpg',
               speed: -10,
               expanded: false,
             },

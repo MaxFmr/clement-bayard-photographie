@@ -17,8 +17,8 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
 
   const photosGallery = photos.map((photo) => {
     return {
-      original: '/assets/' + page + '/' + photo.id + '.JPG',
-      thumbnail: '/assets/' + page + '/' + photo.id + '.JPG',
+      original: photo.url,
+      thumbnail: photo.url,
     };
   });
   const handleClick = (id: number) => {
@@ -42,10 +42,8 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
       ) : (
         <div className='gallery'>
           {photos.map((photo) => {
-            let path = `/assets/${page}/${photo.id}.JPG`;
-            if (page === 'landscape') {
-              path = photo.url;
-            }
+            const path = photo.url;
+
             return (
               <>
                 <div

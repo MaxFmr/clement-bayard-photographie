@@ -29,7 +29,7 @@ const categories = [
     title: 'Contemplez le monde qui vous entoure',
     url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/view_zahswt.jpg',
     theme: 'Paysages',
-    path: '/views',
+    path: '/landscapes',
   },
 
   {

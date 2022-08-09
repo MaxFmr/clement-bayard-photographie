@@ -83,7 +83,7 @@ const ViewsPage = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Gallery photos={photos} page='landscape' />
+      <Gallery photos={photos} page='landscapes' />
     </>
   );
 };
