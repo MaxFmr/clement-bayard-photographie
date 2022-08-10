@@ -14,6 +14,10 @@ const StyledFoodPage = styled.section`
     margin-top: 5%;
     opacity: 0.8;
     display: flex;
+
+    @media (min-width: 380px) {
+      width: 70%;
+    }
     .bg {
       height: 220px;
 
@@ -21,11 +25,26 @@ const StyledFoodPage = styled.section`
       background-repeat: no-repeat;
       background-size: cover;
 
+      @media (min-width: 380px) {
+        background-position: center;
+        height: 500px;
+        padding: 20px;
+        p {
+          width: 30%;
+          font-size: 15px;
+        }
+      }
       font-size: 12px;
       color: #ffff;
       padding: 5px;
       margin-bottom: 10px;
       border-radius: 15px;
+    }
+    @media (min-width: 500px) {
+      p {
+        width: 30%;
+        font-size: 15px;
+      }
     }
 
     .customers {
