@@ -140,11 +140,11 @@ const FoodPage = (): JSX.Element => {
       <StyledFoodPage>
         <div className='resume'>
           <div className='bg'>
-            <p>
+            {/* <p>
               La photographie culinaire nécessite l'installation d'un studio
               mobile. Pour que la lumière révèle toute l'esthétique d'un plat,
               d'un produit...
-            </p>
+            </p> */}
           </div>
           <div className='customers'>
             <Image
