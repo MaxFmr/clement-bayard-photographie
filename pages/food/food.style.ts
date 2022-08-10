@@ -6,7 +6,7 @@ const StyledFoodPage = styled.section`
     font-size: 13px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
     border-radius: 15px;
     background-color: #46466d;
     width: 90%;
@@ -20,7 +20,6 @@ const StyledFoodPage = styled.section`
     }
     .bg {
       height: 220px;
-
       background-image: url('https://res.cloudinary.com/dal6ewwdl/image/upload/v1660111539/Cl%C3%A9ment%20Bayard%20Website/food/IMG_0965_n9buqc.jpg');
       background-repeat: no-repeat;
       background-size: cover;
@@ -37,7 +36,7 @@ const StyledFoodPage = styled.section`
       font-size: 12px;
       color: #ffff;
       padding: 5px;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       border-radius: 15px;
     }
     @media (min-width: 500px) {
@@ -54,6 +53,31 @@ const StyledFoodPage = styled.section`
       background-color: #212045;
       border-radius: 15px;
       margin: 0 auto;
+      @media (min-width: 900px) {
+        padding: 0;
+        width: 50%;
+        margin-top: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+  .gallery {
+    .caroussel {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 10%;
+      @media (max-width: 700px) {
+        margin-top: 20%;
+      }
+      img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+        border-radius: 5px;
+      }
     }
   }
 `;
