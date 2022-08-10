@@ -20,7 +20,7 @@ const categories = [
   {
     id: 3,
     title: 'Manger avec les yeux',
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/food_pvqeur.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109608/Cl%C3%A9ment%20Bayard%20Website/food/food_pvqeur.jpg',
     theme: 'Photographie culinaire',
     path: '/food',
   },
