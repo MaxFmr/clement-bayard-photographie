@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 const StyledFoodPage = styled.section`
   .parallax {
-    height: 500px;
+    height: 450px;
   }
   svg {
     fill: url(#MyGradient);
