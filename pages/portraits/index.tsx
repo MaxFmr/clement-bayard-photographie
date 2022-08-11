@@ -16,7 +16,7 @@ const photos = [
   },
   {
     id: 4,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC04502-min_fbjvw6.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109609/Cl%C3%A9ment%20Bayard%20Website/portraits/portraits_uqefiu.jpg',
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const photos = [
   },
   {
     id: 10,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/LRG_DSC09658-min_kv9kop.jpg',
+    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC04502-min_fbjvw6.jpg',
   },
   {
     id: 11,

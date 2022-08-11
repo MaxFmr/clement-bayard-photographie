@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import StyledFoodPage from './food.style';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 const photos = [
   {
@@ -138,23 +139,29 @@ const FoodPage = (): JSX.Element => {
     <>
       <Header />
       <StyledFoodPage>
-        <div className='resume'>
-          <div className='bg'>
-            {/* <p>
-              La photographie culinaire nécessite l'installation d'un studio
-              mobile. Pour que la lumière révèle toute l'esthétique d'un plat,
-              d'un produit...
-            </p> */}
-          </div>
-          <div className='customers'>
-            <Image
-              src='https://res.cloudinary.com/dal6ewwdl/image/upload/v1660111545/Cl%C3%A9ment%20Bayard%20Website/food/E7760004-1ECD-417D-B3E0-7D68437AC24B_k6ajg3.jpg'
-              layout='responsive'
-              height={100}
-              width={100}
-              objectFit='contain'
-            />
-          </div>
+        <ParallaxBanner
+          className='parallax'
+          layers={[
+            {
+              image:
+                'https://res.cloudinary.com/dal6ewwdl/image/upload/v1660111539/Cl%C3%A9ment%20Bayard%20Website/food/IMG_0965_n9buqc.jpg',
+              speed: -20,
+            },
+          ]}
+          style={{ aspectRatio: '2 / 1', objectFit: 'cover' }}></ParallaxBanner>
+        <div className='wave'>
+          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
+            <defs>
+              <linearGradient id='MyGradient'>
+                <stop offset='0%' stop-color='    rgba(2, 0, 36, 1)' />
+                <stop offset='100%' stop-color=' rgba(134, 137, 178, 1)' />
+                <stop offset='100%' stop-color=' rgba(0, 212, 255, 1) ' />
+              </linearGradient>
+            </defs>
+            <path
+              fill-opacity='1'
+              d='M0,64L60,64C120,64,240,64,360,53.3C480,43,600,21,720,10.7C840,0,960,0,1080,10.7C1200,21,1320,43,1380,53.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z'></path>
+          </svg>
         </div>
         <div className='gallery'>
           <ImageGallery
