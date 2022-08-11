@@ -28,7 +28,7 @@ const StyledFoodPage = styled.section`
       top: 30px;
     }
     @media (max-width: 420px) {
-      top: 38px;
+      top: 70px;
     }
   }
   .text {
@@ -44,6 +44,18 @@ const StyledFoodPage = styled.section`
     padding-right: 1%;
     width: 90%;
     left: 10%;
+  }
+  .text2 {
+    @media (min-width: 1230px) {
+      display: none;
+    }
+    padding: 20px;
+    text-align: justify;
+
+    @media (max-width: 570px) {
+      font-size: 10px;
+      margin-top: 50px;
+    }
   }
   .gallery {
     /* @media (max-width: 770px) {

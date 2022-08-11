@@ -168,12 +168,18 @@ const FoodPage = (): JSX.Element => {
             <span>culinaire</span>
             <span>nécessite un studio.</span>
             <span>Mais soyez rassurés, </span>
-            <span>je m’adapte à vos contraintes,</span>
+            <span>je madapte à vos contraintes,</span>
             <span>jamais je nedérange le fonctionnement de votre</span>
             <span> établissement.</span>
           </div>
         </div>
-
+        <div className='text2'>
+          <p>
+            La photographie culinaire nécessite un studio. Mais soyez rassurés,
+            je madapte à vos contraintes, jamais je nedérange le fonctionnement
+            de votre établissement.
+          </p>
+        </div>
         <div className='gallery'>
           <ImageGallery
             items={photosGallery}
