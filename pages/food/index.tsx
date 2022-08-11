@@ -152,16 +152,28 @@ const FoodPage = (): JSX.Element => {
           <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
             <defs>
               <linearGradient id='MyGradient'>
-                <stop offset='0%' stop-color='    rgba(2, 0, 36, 1)' />
-                <stop offset='100%' stop-color=' rgba(134, 137, 178, 1)' />
-                <stop offset='100%' stop-color=' rgba(0, 212, 255, 1) ' />
+                <stop offset='0%' stopColor='    rgba(2, 0, 36, 1)' />
+                <stop offset='100%' stopColor=' rgba(134, 137, 178, 1)' />
+                <stop offset='100%' stopColor=' rgba(0, 212, 255, 1) ' />
               </linearGradient>
             </defs>
             <path
-              fill-opacity='1'
-              d='M0,64L60,64C120,64,240,64,360,53.3C480,43,600,21,720,10.7C840,0,960,0,1080,10.7C1200,21,1320,43,1380,53.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z'></path>
+              fillOpacity='1'
+              d='M0,192L48,170.7C96,149,192,107,288,106.7C384,107,480,149,576,154.7C672,160,768,128,864,122.7C960,117,1056,139,1152,122.7C1248,107,1344,53,1392,26.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'></path>
           </svg>
+          <div className='text'>
+            <p></p>
+            <span>La</span>
+            <span>photographie </span>
+            <span>culinaire</span>
+            <span>nécessite un studio.</span>
+            <span>Mais soyez rassurés, </span>
+            <span>je m’adapte à vos contraintes,</span>
+            <span>jamais je nedérange le fonctionnement de votre</span>
+            <span> établissement.</span>
+          </div>
         </div>
+
         <div className='gallery'>
           <ImageGallery
             items={photosGallery}

@@ -5,7 +5,7 @@ const StyledHeader = styled.header`
   color: #ffff;
   display: flex;
   height: 130px;
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
     height: 50px;
   }
   background-color: black;
@@ -18,7 +18,7 @@ const StyledHeader = styled.header`
   justify-content: space-around;
   .title {
     cursor: default;
-    @media (max-width: 700px) {
+    @media (max-width: 600px) {
       font-size: 14px;
     }
   }
