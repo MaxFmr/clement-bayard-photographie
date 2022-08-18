@@ -13,7 +13,7 @@ const categories = [
   {
     id: 2,
     title: 'Le plus beau jour de deux vies',
-    url: 'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/mariage/wedding11.jpg',
     theme: 'Mariages',
     path: '/weeding',
   },
