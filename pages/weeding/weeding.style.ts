@@ -7,6 +7,9 @@ const StyledWeedingPage = styled.section`
     font-size: 12px;
     display: flex;
     font-size: 13px;
+    ul {
+      margin-top: 5px;
+    }
 
     img {
       object-fit: cover;

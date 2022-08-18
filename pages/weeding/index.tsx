@@ -137,11 +137,12 @@ const WeedingPage = (): JSX.Element => {
           <div className='formula1'>
             <div className='txt'>
               <h3>Formule Coquelicot</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                asperiores laudantium eveniet neque temporibus! Quaerat, facere
-                vero veniam porro odio accusamus illum praesentium aliquid
-              </p>
+
+              <ul>
+                <li>Cérémonie (laïque, religieuse)</li>
+                <li>Vin d’honneur</li>
+                <li>Photo rendu en haute définition sur clé USB</li>
+              </ul>
             </div>
 
             <div className='bg'>
@@ -166,21 +167,27 @@ const WeedingPage = (): JSX.Element => {
             </div>
             <div className='txt'>
               <h3>Formule Muguet</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                asperiores laudantium eveniet neque temporibus! Quaerat, facere
-                vero veniam porro odio accusamus illum praesentium aliquid
-              </p>
+              <ul>
+                <li>Préparatifs des futurs mariés </li>
+                <li>Cérémonie ( Laïque, religieuse)</li>
+                <li>Vin d'honneur</li>
+                <li>Photo rendu en haute définition sur clé USB</li>
+              </ul>
             </div>
           </div>
           <div className='formula3'>
             <div className='txt'>
               <h3>Formule Camelia</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                asperiores laudantium eveniet neque temporibus! Quaerat, facere
-                vero veniam porro odio accusamus illum praesentium aliquid
-              </p>
+
+              <ul>
+                <li> Préparatif des futurs mariés</li>
+                <li>Cérémonie (Laïque, religieuse)</li>
+                <li>Vin d’honneur</li>
+                <li>Soirée (jusqu’au gâteau)</li>
+                <li>
+                  Photo rendu en haute définition sur clé USB personnalisée
+                </li>
+              </ul>
             </div>
             <div className='bg'>
               <Image
