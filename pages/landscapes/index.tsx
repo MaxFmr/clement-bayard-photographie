@@ -8,27 +8,27 @@ const photos = [
   },
   {
     id: 2,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape2.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape2.jpg',
   },
   {
     id: 3,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape3.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape3.jpg',
   },
   {
     id: 4,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape4.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape4.jpg',
   },
   {
     id: 5,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape5.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape5.jpg',
   },
   {
     id: 6,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape6.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape6.jpg',
   },
   {
     id: 7,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape7.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape7.jpg',
   },
   {
     id: 8,

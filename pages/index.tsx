@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           layers={[
             {
               image:
-                'https://maximekerlidou.fr/photos/clement/firstpage/premierepage1.jpg',
+                'https://maximekerlidou.fr/photos/clement/firstpage/firstpage2.jpg',
               speed: -10,
               expanded: false,
             },
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
           layers={[
             {
               image:
-                'https://maximekerlidou.fr/photos/clement/firstpage/premierepage2.jpg',
+                'https://maximekerlidou.fr/photos/clement/firstpage/firstpage1.jpg',
               speed: -20,
               shouldAlwaysCompleteAnimation: true,
             },
