@@ -4,51 +4,51 @@ import Gallery from '../../components/gallery';
 const photos = [
   {
     id: 1,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC05007-Modifier-min_onn165.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape1.jpg',
   },
   {
     id: 2,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC06885-Modifier-min_ogyass.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape2.jpg',
   },
   {
     id: 3,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC06925-Modifier-min_wm2yzh.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape3.jpg',
   },
   {
     id: 4,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/v1659109609/Cl%C3%A9ment%20Bayard%20Website/portraits/portraits_uqefiu.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape4.jpg',
   },
   {
     id: 5,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC06124-Modifier-min_rhihz9.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape5.jpg',
   },
   {
     id: 6,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC04723-min_ogv2se.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape6.jpg',
   },
   {
     id: 7,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC04688-min_e1jsbx.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape.jpg',
   },
   {
     id: 8,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC03780-min_yhf7q9.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape8.jpg',
   },
   {
     id: 9,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC06144-Modifier-min_ulmajq.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape9.jpg',
   },
   {
     id: 10,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC04502-min_fbjvw6.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape10.jpg',
   },
   {
     id: 11,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC03792-min_c8bj6s.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape11.jpg',
   },
   {
     id: 12,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_3000,h_3000,c_limit/Cl%C3%A9ment%20Bayard%20Website/portraits/DSC04746-min_tn7j3g.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape12.jpg',
   },
 ];
 

@@ -7,107 +7,121 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 export const images = [
   {
     original:
-      '  https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/wedding_vvf6tc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.jpg',
     thumbnail:
-      ' https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/wedding_vvf6tc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08191_u2x1lp.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding2.jpg',
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08191_u2x1lp.jpg',
-  },
-
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08440_zrlb16.jpg',
-
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08440_zrlb16.jpg',
-  },
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866102/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08436_p68soz.jpg',
-
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08436_p68soz.jpg',
-  },
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08607_aa1ji0.jpg',
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08607_aa1ji0.jpg',
-  },
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08610-min_nck1tu.jpg',
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08610-min_nck1tu.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding2.jpg',
   },
 
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08532_enzvnh.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding3.jpg',
+
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08532_enzvnh.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding3.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding4.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding4.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding5.jpg',
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding5.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding6.jpg',
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding6.jpg',
   },
 
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866102/Cl%C3%A9ment%20Bayard%20Website/wedding/DJI_0349_cg0ihc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding8.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DJI_0349_cg0ihc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding8.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866101/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-9816_rascwn.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding9.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-9816_rascwn.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding9.jpg',
   },
 
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09154_icc1no.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding10.jpg',
 
     thumbnail:
-      ' https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09154_icc1no.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding10.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08248_eogx7p.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding11.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08248_eogx7p.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding11.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09157_icxsuu.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding12.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09157_icxsuu.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding12.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866096/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_20_20JULIEN_20HD-4990_w0gqwx.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding13.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866096/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_20_20JULIEN_20HD-4990_w0gqwx.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding13.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866095/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-08069_w97epq.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding14.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-08069_w97epq.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding14.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866077/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-4798_czods5.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding15.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-4798_czods5.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding15.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding16.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding16.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding17.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding17.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding18.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding18.jpg',
   },
 ];
 

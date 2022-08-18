@@ -4,51 +4,61 @@ import Gallery from '../../components/gallery';
 const photos = [
   {
     id: 1,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/street_mmhpx7.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street1.jpg',
+    alt: 'street',
   },
   {
     id: 2,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC01007_denotm.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street2.jpg',
+    alt: 'street',
   },
   {
     id: 3,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC03137_mvkb7x.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street3.jpg',
+    alt: 'street',
   },
   {
     id: 4,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC07299_ncqlrh.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street4.jpg',
+    alt: 'street',
   },
   {
     id: 5,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC03445-Modifier_atyoai.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street5.jpg',
+    alt: 'street',
   },
   {
     id: 6,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC02905_b9dmdk.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street6.JPG',
   },
   {
     id: 7,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC08903_erjj95.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street7.jpg',
+    alt: 'street',
   },
   {
     id: 8,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC07301_czadci.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street8.jpg',
+    alt: 'street',
   },
   {
     id: 9,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC06705_ztufjf.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street9.jpg',
+    alt: 'street',
   },
   {
     id: 10,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC06711_vdsfqv.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street10.jpg',
   },
   {
     id: 11,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC02947_ven3ae.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street11.jpg',
+    alt: 'street',
   },
   {
     id: 12,
-    url: 'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/street/DSC03465-Modifier_vmfxm3.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street12.jpg',
+    alt: 'street',
   },
 ];
 
