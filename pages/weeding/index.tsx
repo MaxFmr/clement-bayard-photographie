@@ -152,6 +152,7 @@ const WeedingPage = (): JSX.Element => {
                 sizes='100%'
                 height={100}
                 width={150}
+                alt="photo d'un coquelicot"
               />
             </div>
           </div>
@@ -163,6 +164,7 @@ const WeedingPage = (): JSX.Element => {
                 sizes='100%'
                 height={100}
                 width={150}
+                alt="photo d'un brin de muguet"
               />
             </div>
             <div className='txt'>
@@ -170,7 +172,7 @@ const WeedingPage = (): JSX.Element => {
               <ul>
                 <li>Préparatifs des futurs mariés </li>
                 <li>Cérémonie ( Laïque, religieuse)</li>
-                <li>Vin d'honneur</li>
+                <li>Vin D’honneur</li>
                 <li>Photo rendu en haute définition sur clé USB</li>
               </ul>
             </div>
@@ -196,6 +198,7 @@ const WeedingPage = (): JSX.Element => {
                 sizes='100%'
                 height={100}
                 width={150}
+                alt="photo d'un camelia"
               />
             </div>
           </div>

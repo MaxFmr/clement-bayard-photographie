@@ -30,7 +30,12 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
       {clicked ? (
         <div>
           <button className='closeButton' onClick={() => setClicked(false)}>
-            <Image src='/assets/xmark-solid.svg' height={30} width={30} />
+            <Image
+              src='/assets/xmark-solid.svg'
+              height={30}
+              width={30}
+              alt='closing logo'
+            />
           </button>
           <ImageGallery
             items={photosGallery}
