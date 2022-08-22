@@ -12,6 +12,10 @@ const StyledFooter = styled.footer`
     text-decoration: none;
     color: #ffff;
     font-size: 10px;
+    text-decoration: underline;
+    :hover {
+      color: black;
+    }
   }
   button {
     display: inline-block;
