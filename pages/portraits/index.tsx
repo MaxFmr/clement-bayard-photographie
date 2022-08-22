@@ -1,5 +1,6 @@
 import Header from '../../components/Header';
 import Gallery from '../../components/gallery';
+import Footer from '../../components/footer';
 
 const photos = [
   {
@@ -105,6 +106,7 @@ const PortraitsPage = (): JSX.Element => {
     <>
       <Header />
       <Gallery photos={photos} page='portraits' />
+      <Footer />
     </>
   );
 };

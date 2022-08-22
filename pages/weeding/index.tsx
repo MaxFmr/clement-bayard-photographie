@@ -3,6 +3,7 @@ import StyledWeedingPage from './weeding.style';
 import ImageGallery from 'react-image-gallery';
 import Image from 'next/image';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import Footer from '../../components/footer';
 
 export const images = [
   {
@@ -208,6 +209,7 @@ const WeedingPage = (): JSX.Element => {
           <ImageGallery items={images} additionalClass='caroussel' />
         </div>
       </StyledWeedingPage>
+      <Footer />
     </>
   );
 };

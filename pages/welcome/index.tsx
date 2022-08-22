@@ -2,6 +2,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import StyledWelcome from './category.style';
 import Header from '../../components/Header';
 import { useRouter } from 'next/router';
+import Footer from '../../components/footer';
 const categories = [
   {
     id: 1,
@@ -82,6 +83,7 @@ const Welcome = () => {
             );
           }
         })}
+        <Footer />
       </StyledWelcome>
     </>
   );

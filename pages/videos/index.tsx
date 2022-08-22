@@ -1,3 +1,4 @@
+import Footer from '../../components/footer';
 import Header from '../../components/Header';
 import StyledVideos from './videos.style';
 
@@ -18,6 +19,7 @@ const VideosPage = (): JSX.Element => {
             controls></video>
         </div>
       </StyledVideos>
+      <Footer />
     </>
   );
 };

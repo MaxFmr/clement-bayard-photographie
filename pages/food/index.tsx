@@ -3,6 +3,7 @@ import StyledFoodPage from './food.style';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { ParallaxBanner } from 'react-scroll-parallax';
+import Footer from '../../components/footer';
 
 const photos = [
   {
@@ -181,6 +182,7 @@ const FoodPage = (): JSX.Element => {
           />
         </div>
       </StyledFoodPage>
+      <Footer />
     </>
   );
 };
