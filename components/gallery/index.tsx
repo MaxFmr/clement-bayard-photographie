@@ -62,7 +62,6 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
                     height={500}
                     width={500}
                     objectFit='contain'
-                    style={{ borderRadius: '15px' }}
                     alt={'photo prise par Clément Bayard' + photo.id}
                   />
                 </div>
