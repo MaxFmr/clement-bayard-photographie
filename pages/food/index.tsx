@@ -157,15 +157,13 @@ const FoodPage = (): JSX.Element => {
               d='M0,192L48,170.7C96,149,192,107,288,106.7C384,107,480,149,576,154.7C672,160,768,128,864,122.7C960,117,1056,139,1152,122.7C1248,107,1344,53,1392,26.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'></path>
           </svg>
           <div className='text'>
-            <p></p>
             <span>La</span>
             <span>photographie </span>
-            <span>culinaire</span>
-            <span>nécessite un studio.</span>
-            <span>Mais soyez rassurés, </span>
-            <span>je madapte à vos contraintes,</span>
-            <span>jamais je nedérange le fonctionnement de votre</span>
-            <span> établissement.</span>
+            <span>culinaire nécessite un</span>
+            <span> studio mobile pour</span>
+            <span>
+              mettre en lumière toute la qualité et l’estéthique votre produit.
+            </span>
           </div>
         </div>
         <div className='text2'>

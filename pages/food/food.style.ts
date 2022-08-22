@@ -2,7 +2,7 @@ import styled from 'styled-components';
 const StyledFoodPage = styled.section`
   display: block;
   .parallax {
-    height: 450px;
+    height: 500px;
     @media (max-width: 770px) {
       height: 250px;
     }
