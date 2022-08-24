@@ -26,7 +26,7 @@ const LegalPage = (): JSX.Element => {
         <h2> développement :</h2>
         <p>Maxime KERLIDOU Numéro de SIRET : 90968738600013</p>
         <a href='https://www.maximekerlidou.fr'>www.maximekerlidou.fr</a>
-        <h2>Conditions d'utilisation</h2>
+        <h2>Conditions d’utilisation</h2>
         Ce site {process.env.domain} est proposé en différents langages web
         (HTML, HTML5, Javascript, CSS, etc…) pour un meilleur confort
         d’utilisation et un graphisme plus agréable. Nous vous recommandons de
@@ -71,7 +71,7 @@ const LegalPage = (): JSX.Element => {
         L’ensemble des activités de la société ainsi que ses informations sont
         présentés sur notre {process.env.doamin}. Clément Bayard s’efforce de
         fournir sur le site {process.env.domain}des informations aussi précises
-        que possible. Les renseignements figurant sur le site{' '}
+        que possible. Les renseignements figurant sur le site
         {process.env.domain}
          ne sont pas exhaustifs et les photos non contractuelles. Ils sont
         donnés sous réserve de modifications ayant été apportées depuis leur
