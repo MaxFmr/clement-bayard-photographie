@@ -14,9 +14,13 @@ const InfosPage = (): JSX.Element => {
             <p>
               Photographe autodidacte passionné. Cette passion qui m'a été
               transmise par mes deux grands-pères. <br />
-              Je suis Cuisinier et Pâtissier de formation. <br />
-              Quel est mon but ?
-              <br /> Mettre en valeur le savoir faire d’artisans sous forme de
+              Je suis Cuisinier et Pâtissier de formation.
+            </p>
+          </div>
+          <h1> Quel est mon but ?</h1>
+          <div className='txt'>
+            <p>
+              Mettre en valeur le savoir faire d’artisans sous forme de
               reportage, exposition, création de carte, reportage vidéo afin de
               montrer le meilleur de vous même dans le but d'accroître votre
               activité.
