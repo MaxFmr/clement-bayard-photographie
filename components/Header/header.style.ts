@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
+  border-bottom: solid 0.5px #ffff;
   font-family: 'Montserrat', sans-serif;
   color: #ffff;
   display: flex;
@@ -27,9 +28,15 @@ const StyledHeader = styled.header`
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    @media (max-width: 700px) {
-      font-size: 14px;
-      justify-content: center;
+    @media (max-width: 1200px) {
+      width: auto;
+      button {
+        margin-left: 20px;
+      }
+    }
+    @media (max-width: 600px) {
+      font-size: 30%;
+      width: auto;
     }
     button {
       display: inline-block;
@@ -51,6 +58,9 @@ const StyledHeader = styled.header`
         width: 100%;
         //transition: width .3s;
       }
+    }
+    .burger {
+      margin: 5px;
     }
   }
 `;

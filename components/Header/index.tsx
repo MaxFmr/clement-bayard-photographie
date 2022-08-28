@@ -1,4 +1,5 @@
 import StyledHeader from './header.style';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 const Header = (): JSX.Element => {
   const router = useRouter();
@@ -14,6 +15,7 @@ const Header = (): JSX.Element => {
         <button onClick={() => router.push('/infos')}>Qui suis-je ?</button>
         {/* <button onClick={() => router.push('/blog')}>Blog</button> */}
       </div>
+      <div className='burger'></div>
     </StyledHeader>
   );
 };

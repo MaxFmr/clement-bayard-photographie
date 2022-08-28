@@ -64,14 +64,14 @@ const LegalPage = (): JSX.Element => {
         où un utilisateur ou visiteur souhaiterait mettre en place un hyperlien
         en direction d’un des sites internet de Clément Bayard., il lui
         appartiendra d’adresser un email accessible sur le site afin de formuler
-        sa demande de mise en place d’un hyperlien. La Clément Bayard. se
-        réserve le droit d’accepter ou de refuser un hyperlien sans avoir à en
-        justifier sa décision.
+        sa demande de mise en place d’un hyperlien. Clément Bayard. se réserve
+        le droit d’accepter ou de refuser un hyperlien sans avoir à en justifier
+        sa décision.
         <h2>Services fournis</h2>
-        L’ensemble des activités de la société ainsi que ses informations sont
-        présentés sur notre {process.env.doamin}. Clément Bayard s’efforce de
-        fournir sur le site {process.env.domain}des informations aussi précises
-        que possible. Les renseignements figurant sur le site
+        L’ensemble des activités de Clément Bayard ainsi que ses informations
+        sont présentés sur notre {process.env.doamin}. Clément Bayard s’efforce
+        de fournir sur le site {process.env.domain}des informations aussi
+        précises que possible. Les renseignements figurant sur le site
         {process.env.domain}
          ne sont pas exhaustifs et les photos non contractuelles. Ils sont
         donnés sous réserve de modifications ayant été apportées depuis leur

@@ -1,13 +1,23 @@
 import styled from 'styled-components';
 const StyledFooter = styled.footer`
-  height: 100px;
-  width: 100vw;
+  width: 100%;
+  height: 20px;
   position: relative;
   color: #ffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2%;
+  border-top: solid 1px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
+  @media (max-width: 600px) {
+    /* Smartphones (landscape) ----------- */
+    /* Styles */
+    /* font-size: 2%; */
+    height: 30%;
+    top: 20vh;
+  }
   a {
     text-decoration: none;
     color: #ffff;
@@ -20,10 +30,12 @@ const StyledFooter = styled.footer`
   button {
     display: inline-block;
     font-size: smaller;
+    margin: 2%;
 
-    background: #000;
+    background: none;
     border: none;
     color: #ffff;
+    padding: 1%;
     cursor: pointer;
     :after {
       content: '';
