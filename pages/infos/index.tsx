@@ -12,7 +12,7 @@ const InfosPage = (): JSX.Element => {
           <h1>Qui suis-je ?</h1>
           <div className='txt'>
             <p>
-              Photographe autodidacte passionné. Cette passion qui m'a été
+              Photographe autodidacte passionné. Cette passion qui m’a été
               transmise par mes deux grands-pères. <br />
               Je suis Cuisinier et Pâtissier de formation.
             </p>
@@ -22,7 +22,7 @@ const InfosPage = (): JSX.Element => {
             <p>
               Mettre en valeur le savoir faire d’artisans sous forme de
               reportage, exposition, création de carte, reportage vidéo afin de
-              montrer le meilleur de vous même dans le but d'accroître votre
+              montrer le meilleur de vous même dans le but d’accroître votre
               activité.
             </p>
           </div>
