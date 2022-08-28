@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyledWeedingPage = styled.section`
   width: 100%;
-
+  margin-bottom: 40px;
   .pricing {
     font-size: 12px;
     display: flex;

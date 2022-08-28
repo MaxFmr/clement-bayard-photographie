@@ -14,6 +14,9 @@ const StyledInfos = styled.section`
   }
   .presentation {
     flex: 2;
+    @media (max-width: 600px) {
+      margin-bottom: 10%;
+    }
   }
   .photographer {
     flex: 1;

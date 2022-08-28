@@ -10,11 +10,10 @@ const StyledFooter = styled.footer`
   padding: 2%;
   border-top: solid 1px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
-  margin-top: 50px;
   @media (max-width: 600px) {
     /* Smartphones (landscape) ----------- */
     /* Styles */
-    /* font-size: 2%; */
+    font-size: 1.5%;
     height: 30%;
     top: 20vh;
   }

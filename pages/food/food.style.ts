@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 const StyledFoodPage = styled.section`
+  margin-bottom: 40px;
   display: block;
   .parallax {
     height: 500px;
