@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-type photo = { id: number; url: string };
+type photo = { id: number; url: string; alt: string };
 
 interface GalleryProps {
   photos: photo[];
@@ -62,7 +62,9 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
                     height={500}
                     width={500}
                     objectFit='contain'
-                    alt={'photo prise par Clément Bayard' + photo.id}
+                    alt={
+                      photo.alt + 'photo prise par Clément Bayard' + photo.id
+                    }
                   />
                 </div>
               </>
