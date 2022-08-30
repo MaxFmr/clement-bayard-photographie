@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { useRef } from 'react';
 import InstagramButton from '../components/instagramButton';
 import { ParallaxBanner } from 'react-scroll-parallax';
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   const ref = useRef<null | HTMLDivElement>(null);
@@ -28,6 +29,13 @@ const Home: NextPage = () => {
 
   return (
     <StyledLandingPage>
+      <Head>
+        <title>Peinture Hazard-Samin</title>
+        <meta
+          name='description'
+          content='Clément Bayard, photographe et videaste à Valenciennes, photographie culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
+        />
+      </Head>
       <div className='name'>
         <div className='brand'>
           <span>Clement Bayard </span>
