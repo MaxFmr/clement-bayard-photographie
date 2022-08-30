@@ -11,7 +11,7 @@ const StyledContactPage = styled.section`
       font-weight: bold;
     }
     .info {
-      width: 30%;
+      width: 270px;
       display: flex;
       height: 10%;
       align-items: center;

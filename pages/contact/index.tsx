@@ -30,6 +30,15 @@ const ContactPage = (): JSX.Element => {
           <BsPhone size={30} style={{ margin: '15px' }} />
           <span>+33(0) 6 15 97 88 20</span>{' '}
         </div>
+        <a
+          href='https://www.mariages.net/photo-mariage/bayard-clement--e274689'
+          title='Mariages.net'>
+          <img
+            alt='Mariages.net'
+            src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
+            style={{ borderWidth: '0px', margin: '20px' }}
+          />
+        </a>
       </div>
     </StyledContactPage>
   );
