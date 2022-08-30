@@ -13,13 +13,7 @@ export const images = [
     thumbnail:
       'https://www.maximekerlidou.fr/photos/clement/mariage/wedding3.jpg',
   },
-  {
-    original:
-      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding4.jpg',
 
-    thumbnail:
-      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding4.jpg',
-  },
   {
     original:
       'https://www.maximekerlidou.fr/photos/clement/mariage/wedding5.jpg',
