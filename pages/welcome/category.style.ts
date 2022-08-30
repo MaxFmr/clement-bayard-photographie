@@ -12,7 +12,7 @@ const StyledWelcome = styled.section`
     display: flex;
     height: 400px;
     @media (max-width: 700px) {
-      height: 150px;
+      height: 200px;
     }
   }
   color: white;
@@ -45,7 +45,7 @@ const StyledWelcome = styled.section`
         color: #ffff;
         text-transform: uppercase;
       }
-      @media (max-width: 700px) {
+      @media (max-width: 850px) {
         display: none;
       }
     }
@@ -54,7 +54,9 @@ const StyledWelcome = styled.section`
     z-index: 1;
     color: #f7f7f7;
     padding-top: 40px;
-    @media (min-width: 700px) {
+    margin-left: 20px;
+
+    @media (min-width: 850px) {
       display: none;
     }
   }

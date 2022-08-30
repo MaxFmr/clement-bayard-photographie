@@ -22,14 +22,16 @@
 */
 html,
 body {
+  position: absolute;
   font-family: 'JetBrains Mono', monospace;
   color: #d8d8d8;
   height: 100%;
+  width: 100%;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 2%,
-    rgba(134, 137, 178, 1) 85%,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(134, 137, 178, 1) 100%,
     rgba(0, 212, 255, 1) 100%
   );
 }

@@ -2,76 +2,128 @@ import styled from 'styled-components';
 
 const StyledWeedingPage = styled.section`
   width: 100%;
+  margin-bottom: 40px;
   .pricing {
+    font-size: 12px;
+    display: flex;
+    font-size: 13px;
+    ul {
+      margin-top: 5px;
+    }
+
+    img {
+      object-fit: cover;
+      border-radius: 15px;
+    }
     display: flex;
     flex-direction: column;
-    @media (max-width: 700px) {
-      width: 100%;
-      font-size: 8px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #46466d;
+    @media (max-width: 750px) {
+      width: 92%;
     }
+    @media (max-width: 1120px) {
+      font-size: 10px;
+    }
+    @media (max-width: 570px) {
+      width: 100%;
+      font-size: 7px;
+      .txt {
+        margin: 4px 0px;
+      }
+      padding: 10px;
+    }
+
     width: 65%;
     margin: 0 auto;
     margin-top: 5%;
+    opacity: 0.8;
 
     h3 {
       font-family: 'Montserrat', sans-serif;
     }
 
     .formula1 {
-      margin-bottom: 2%;
+      border: #151438 1px solid;
+      border-radius: 15px;
 
+      margin-bottom: 2%;
+      background-color: #151438;
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-end;
+      align-items: center;
       .txt {
         width: 40%;
+        margin-right: 15%;
       }
       .bg {
         width: 40%;
-        height: auto;
-        background-color: #151438;
-      }
-      img {
-        padding-right: 100px;
-        @media (max-width: 700px) {
-          padding: 0;
+        height: 100%;
+        background-color: #393a5f;
+        border-radius: 15px;
+
+        img {
+          padding-right: 100px;
+          @media (max-width: 900px) {
+            padding: 0;
+          }
         }
       }
     }
     .formula2 {
+      border-radius: 15px;
+      border: #151438 1px solid;
+
       margin-bottom: 2%;
+      background-color: #151438;
+
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-start;
+      align-items: center;
 
       .txt {
         width: 40%;
+        margin-left: 15%;
       }
 
       .bg {
+        border-radius: 15px;
+        height: 100%;
+
         width: 40%;
-        height: auto;
         background-color: #7a7da6;
 
         img {
           padding-left: 100px;
-          @media (max-width: 700px) {
+          @media (max-width: 900px) {
             padding: 0;
           }
         }
       }
     }
     .formula3 {
+      border-radius: 15px;
+      border: #151438 1px solid;
+
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-end;
+      align-items: center;
+      background-color: #151438;
+
       .txt {
         width: 40%;
+        margin-right: 15%;
       }
       .bg {
+        border-radius: 15px;
+
         width: 40%;
-        height: auto;
-        background-color: #151438;
+        height: 100%;
+        background-color: #393a5e;
         img {
           padding-right: 100px;
-          @media (max-width: 700px) {
+          @media (max-width: 900px) {
             padding: 0;
           }
         }
@@ -84,12 +136,16 @@ const StyledWeedingPage = styled.section`
       width: 90%;
       height: auto;
       margin: 0 auto;
-      margin-top: 5%;
+      margin-top: 10%;
+      @media (max-width: 700px) {
+        margin-top: 20%;
+      }
       img {
         width: 80%;
         height: auto;
         margin: 0 auto;
         object-fit: contain;
+        border-radius: 5px;
       }
     }
   }

@@ -1,111 +1,131 @@
 import Header from '../../components/Header';
 import StyledWeedingPage from './weeding.style';
 import ImageGallery from 'react-image-gallery';
+import Image from 'next/image';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import Footer from '../../components/footer';
+
 export const images = [
   {
     original:
-      '  https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/wedding_vvf6tc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.jpg',
     thumbnail:
-      ' https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/wedding_vvf6tc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08191_u2x1lp.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding2.jpg',
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08191_u2x1lp.jpg',
-  },
-
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08440_zrlb16.jpg',
-
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08440_zrlb16.jpg',
-  },
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866102/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08436_p68soz.jpg',
-
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08436_p68soz.jpg',
-  },
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08607_aa1ji0.jpg',
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08607_aa1ji0.jpg',
-  },
-  {
-    original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08610-min_nck1tu.jpg',
-    thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08610-min_nck1tu.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding2.jpg',
   },
 
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08532_enzvnh.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding3.jpg',
+
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08532_enzvnh.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding3.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding4.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding4.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding5.jpg',
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding5.jpg',
   },
 
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866102/Cl%C3%A9ment%20Bayard%20Website/wedding/DJI_0349_cg0ihc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding8.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DJI_0349_cg0ihc.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding8.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866101/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-9816_rascwn.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding9.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-9816_rascwn.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding9.jpg',
   },
 
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09154_icc1no.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding11.jpg',
 
     thumbnail:
-      ' https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09154_icc1no.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding11.jpg',
+  },
+
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding13.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding13.jpg',
+  },
+
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding15.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding15.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08248_eogx7p.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding16.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC08248_eogx7p.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding16.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_4000,h_4000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09157_icxsuu.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding17.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/DSC09157_icxsuu.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding17.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866096/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_20_20JULIEN_20HD-4990_w0gqwx.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding18.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866096/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_20_20JULIEN_20HD-4990_w0gqwx.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding18.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866095/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-08069_w97epq.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding19.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-08069_w97epq.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding19.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/v1658866077/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-4798_czods5.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding20.jpg',
 
     thumbnail:
-      'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/Cl%C3%A9ment%20Bayard%20Website/wedding/ALEXANDRA_JULIEN_HD-4798_czods5.jpg',
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding20.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding21.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding21.jpg',
+  },
+  {
+    original:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding22.jpg',
+
+    thumbnail:
+      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding22.jpg',
   },
 ];
 
@@ -114,52 +134,83 @@ const WeedingPage = (): JSX.Element => {
     <>
       <Header />
       <StyledWeedingPage>
+      <a href='https://www.mariages.net/photo-mariage/bayard-clement--e274689' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png' style={{borderWidth:"0px", margin:"15px"}} /></a>
         <div className='pricing'>
           <div className='formula1'>
             <div className='txt'>
               <h3>Formule Coquelicot</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                asperiores laudantium eveniet neque temporibus! Quaerat, facere
-                vero veniam porro odio accusamus illum praesentium aliquid
-              </p>
+
+              <ul>
+                <li>Cérémonie (laïque, religieuse)</li>
+                <li>Vin d’honneur</li>
+                <li>Photo rendu en haute définition sur clé USB</li>
+              </ul>
             </div>
 
             <div className='bg'>
-              <img src='/assets/wedding/coqueliquot.jpg' />
+              <Image
+                src='/assets/wedding/coqueliquot.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+                alt="photo d'un coquelicot"
+              />
             </div>
           </div>
           <div className='formula2'>
             <div className='bg'>
-              <img src='/assets/wedding/muguet.jpg' />
+              <Image
+                src='/assets/wedding/muguet.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+                alt="photo d'un brin de muguet"
+              />
             </div>
             <div className='txt'>
               <h3>Formule Muguet</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                asperiores laudantium eveniet neque temporibus! Quaerat, facere
-                vero veniam porro odio accusamus illum praesentium aliquid
-              </p>
+              <ul>
+                <li>Préparatifs des futurs mariés </li>
+                <li>Cérémonie ( Laïque, religieuse)</li>
+                <li>Vin D’honneur</li>
+                <li>Photo rendu en haute définition sur clé USB</li>
+              </ul>
             </div>
           </div>
           <div className='formula3'>
             <div className='txt'>
               <h3>Formule Camelia</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                asperiores laudantium eveniet neque temporibus! Quaerat, facere
-                vero veniam porro odio accusamus illum praesentium aliquid
-              </p>
+
+              <ul>
+                <li> Préparatif des futurs mariés</li>
+                <li>Cérémonie (Laïque, religieuse)</li>
+                <li>Vin d’honneur</li>
+                <li>Soirée (jusqu’au gâteau)</li>
+                <li>
+                  Photo rendu en haute définition sur clé USB personnalisée
+                </li>
+              </ul>
             </div>
             <div className='bg'>
-              <img src='/assets/wedding/fleurerose.jpg' />
+              <Image
+                src='/assets/wedding/fleurerose.jpg'
+                layout='responsive'
+                sizes='100%'
+                height={100}
+                width={150}
+                alt="photo d'un camelia"
+              />
             </div>
           </div>
         </div>
+
         <div className='gallery'>
           <ImageGallery items={images} additionalClass='caroussel' />
         </div>
       </StyledWeedingPage>
+      <Footer />
     </>
   );
 };
