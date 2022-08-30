@@ -3,8 +3,9 @@ import StyledFoodPage from './food.style';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { ParallaxBanner } from 'react-scroll-parallax';
+import { useState } from 'react';
 import Footer from '../../components/footer';
-
+import Image from 'next/image';
 const photos = [
   {
     id: 1,
@@ -129,6 +130,8 @@ const photosGallery = photos.map((photo) => {
 });
 
 const FoodPage = (): JSX.Element => {
+  const [displayClient, setDisplayClient] = useState(false);
+
   return (
     <>
       <Header />
@@ -174,6 +177,31 @@ const FoodPage = (): JSX.Element => {
             de votre établissement.
           </p>
         </div>
+        <button
+          className='client-button'
+          onClick={() => setDisplayClient(!displayClient)}>
+          Voir mes clients
+        </button>
+        {displayClient && (
+          <div className='clients'>
+            <button
+              className='closeButton'
+              onClick={() => setDisplayClient(false)}>
+              <Image
+                src='/assets/xmark-solid.svg'
+                height={30}
+                width={30}
+                alt='closing logo'
+              />
+            </button>
+            <Image
+              src='/assets/clients.JPG'
+              height={800}
+              width={550}
+              objectFit='cover'
+            />
+          </div>
+        )}
         <div className='gallery'>
           <ImageGallery
             items={photosGallery}

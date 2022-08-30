@@ -13,7 +13,7 @@ const Footer = (): JSX.Element => {
         Mentions legales
       </button>
       <Link href='https://www.maximekerlidou.fr'>
-        Site web designé et développé par Maxime KERLIDOU
+        2022 Site web conçu et développé par Maxime KERLIDOU
       </Link>
     </StyledFooter>
   );

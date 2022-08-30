@@ -58,6 +58,17 @@ const StyledFoodPage = styled.section`
       margin-top: 50px;
     }
   }
+  .client-button {
+    z-index: 3;
+    background: none;
+    color: #ffff;
+    border: solid 1px #ffff;
+    border-radius: 5px;
+    position: relative;
+    top: -240px;
+    cursor: pointer;
+    left: 10%;
+  }
   .gallery {
     /* @media (max-width: 770px) {
       margin-top: 20%;
@@ -83,6 +94,40 @@ const StyledFoodPage = styled.section`
         margin: 0 auto;
         object-fit: contain;
         border-radius: 5px;
+      }
+    }
+  }
+  .clients {
+    position: fixed;
+    top: 0;
+    left: 30%;
+    z-index: 5;
+    display: flex;
+    top: 10%;
+    @media (max-width: 570px) {
+      left: -10%;
+    }
+
+    img {
+      border-radius: 15px;
+    }
+    button {
+      height: 40px;
+      width: 40px;
+      border: solid;
+      background: none;
+      color: white;
+      position: relative;
+      left: 10%;
+      top: 10px;
+      z-index: 5;
+      cursor: pointer;
+      border-radius: 10px;
+      margin: 5px;
+      background-color: #ffff;
+      opacity: 0.4;
+      :hover {
+        opacity: 0.9;
       }
     }
   }
