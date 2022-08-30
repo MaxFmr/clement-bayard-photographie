@@ -3,6 +3,7 @@ import { BsInstagram, BsPhone } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import StyledContactPage from './contact.style';
+import Footer from '../../components/footer';
 
 const ContactPage = (): JSX.Element => {
   return (
@@ -40,6 +41,7 @@ const ContactPage = (): JSX.Element => {
           />
         </a>
       </div>
+      <Footer />
     </StyledContactPage>
   );
 };

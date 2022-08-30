@@ -23,7 +23,7 @@ const LegalPage = (): JSX.Element => {
         <a href='https://www.maximekerlidou.fr'>www.maximekerlidou.fr</a>
         <h2>Hébergement :</h2>
         <p>Vercel - Vercel Inc. 340 S Lemon Ave Walnut, CA 91789</p>
-        <h2> développement :</h2>
+        <h2>Développement :</h2>
         <p>Maxime KERLIDOU Numéro de SIRET : 90968738600013</p>
         <a href='https://www.maximekerlidou.fr'>www.maximekerlidou.fr</a>
         <h2>Conditions d’utilisation</h2>
