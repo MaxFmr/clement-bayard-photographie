@@ -8,19 +8,6 @@ import Footer from '../../components/footer';
 export const images = [
   {
     original:
-      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.jpg',
-    thumbnail:
-      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding1.jpg',
-  },
-  {
-    original:
-      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding2.jpg',
-    thumbnail:
-      'https://www.maximekerlidou.fr/photos/clement/mariage/wedding2.jpg',
-  },
-
-  {
-    original:
       'https://www.maximekerlidou.fr/photos/clement/mariage/wedding3.jpg',
 
     thumbnail:
@@ -134,7 +121,15 @@ const WeedingPage = (): JSX.Element => {
     <>
       <Header />
       <StyledWeedingPage>
-      <a href='https://www.mariages.net/photo-mariage/bayard-clement--e274689' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png' style={{borderWidth:"0px", margin:"15px"}} /></a>
+        <a
+          href='https://www.mariages.net/photo-mariage/bayard-clement--e274689'
+          title='Mariages.net'>
+          <img
+            alt='Mariages.net'
+            src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
+            style={{ borderWidth: '0px', margin: '15px' }}
+          />
+        </a>
         <div className='pricing'>
           <div className='formula1'>
             <div className='txt'>
