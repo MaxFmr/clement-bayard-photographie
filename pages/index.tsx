@@ -44,7 +44,8 @@ const Home: NextPage = () => {
         <ParallaxBanner
           layers={[
             {
-              image: '/assets/landingBW.jpg',
+              image:
+                'https://maximekerlidou.fr/photos/clement/firstpage/firstpage2.jpg',
               speed: -10,
               expanded: false,
             },
@@ -69,7 +70,7 @@ const Home: NextPage = () => {
           layers={[
             {
               image:
-                'https://res.cloudinary.com/dal6ewwdl/image/upload/w_2000,h_2000,c_limit/DSC00960_chhrcy.jpg',
+                'https://maximekerlidou.fr/photos/clement/firstpage/firstpage1.jpg',
               speed: -20,
               shouldAlwaysCompleteAnimation: true,
             },

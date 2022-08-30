@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-type photo = { id: number };
+type photo = { id: number; url: string };
 
 interface GalleryProps {
   photos: photo[];
@@ -17,8 +17,8 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
 
   const photosGallery = photos.map((photo) => {
     return {
-      original: '/assets/' + page + '/' + photo.id + '.JPG',
-      thumbnail: '/assets/' + page + '/' + photo.id + '.JPG',
+      original: photo.url,
+      thumbnail: photo.url,
     };
   });
   const handleClick = (id: number) => {
@@ -30,7 +30,12 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
       {clicked ? (
         <div>
           <button className='closeButton' onClick={() => setClicked(false)}>
-            <Image src='/assets/xmark-solid.svg' height={30} width={30} />
+            <Image
+              src='/assets/xmark-solid.svg'
+              height={30}
+              width={30}
+              alt='closing logo'
+            />
           </button>
           <ImageGallery
             items={photosGallery}
@@ -42,7 +47,8 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
       ) : (
         <div className='gallery'>
           {photos.map((photo) => {
-            let path = `/assets/${page}/${photo.id}.JPG`;
+            const path = photo.url;
+
             return (
               <>
                 <div
@@ -53,11 +59,10 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
                   }}>
                   <Image
                     src={path}
-                    height={1000}
-                    width={1000}
+                    height={500}
+                    width={500}
                     objectFit='contain'
-                    style={{ borderRadius: '15px' }}
-                    alt={'portrait' + photo.id}
+                    alt={'photo prise par Clément Bayard' + photo.id}
                   />
                 </div>
               </>
