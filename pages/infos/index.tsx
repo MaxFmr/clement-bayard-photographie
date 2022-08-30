@@ -22,7 +22,7 @@ const InfosPage = (): JSX.Element => {
             <p>
               Mettre en valeur le savoir faire d’artisans sous forme de
               reportage, exposition, création de carte, reportage vidéo afin de
-              montrer le meilleur de vous même dans le but d’accroître votre
+              montrer le meilleur de vous même, dans le but d’accroître votre
               activité.
             </p>
           </div>
