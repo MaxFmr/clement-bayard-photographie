@@ -30,7 +30,7 @@ const Home: NextPage = () => {
   return (
     <StyledLandingPage>
       <Head>
-        <title>Peinture Hazard-Samin</title>
+        <title>Clément Bayard - Photographe</title>
         <meta
           name='description'
           content='Clément Bayard, photographe et videaste à Valenciennes, photographie culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
