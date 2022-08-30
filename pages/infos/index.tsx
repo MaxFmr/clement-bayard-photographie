@@ -12,8 +12,8 @@ const InfosPage = (): JSX.Element => {
           <h1>Qui suis-je ?</h1>
           <div className='txt'>
             <p>
-              Photographe autodidacte passionné. Cette passion qui m’a été
-              transmise par mes deux grands-pères. <br />
+              Photographe autodidacte passionné. Cette passion m’a été transmise
+              par mes deux grands-pères. <br />
               Je suis Cuisinier et Pâtissier de formation.
             </p>
           </div>
