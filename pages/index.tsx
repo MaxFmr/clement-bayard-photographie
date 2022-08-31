@@ -30,6 +30,10 @@ const Home: NextPage = () => {
   return (
     <StyledLandingPage>
       <Head>
+        <script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-LJ7KP7WJB3'></script>
+
         <title>Clément Bayard - Photographe</title>
         <meta
           name='description'
