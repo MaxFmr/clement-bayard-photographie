@@ -15,7 +15,7 @@ const StyledFooter = styled.footer`
     /* Styles */
     font-size: 1.5%;
     height: 30%;
-    top: 20vh;
+    /* top: 20vh; */
   }
   a {
     text-decoration: none;
