@@ -7,6 +7,7 @@ import { useRef } from 'react';
 import InstagramButton from '../components/instagramButton';
 import { ParallaxBanner } from 'react-scroll-parallax';
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Home: NextPage = () => {
   const ref = useRef<null | HTMLDivElement>(null);
@@ -29,11 +30,20 @@ const Home: NextPage = () => {
 
   return (
     <StyledLandingPage>
-      <Head>
-        <script
-          async
-          src='https://www.googletagmanager.com/gtag/js?id=G-LJ7KP7WJB3'></script>
+      <Script
+        async
+        src='https://www.googletagmanager.com/gtag/js?id=G-LJ7KP7WJB3'
+        id='google-analytics'
+        strategy='afterInteractive'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
 
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+      </Script>
+      <Head>
         <title>Clément Bayard - Photographe</title>
         <meta
           name='description'
