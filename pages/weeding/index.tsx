@@ -115,15 +115,22 @@ const WeedingPage = (): JSX.Element => {
     <>
       <Header />
       <StyledWeedingPage>
-        <a
-          href='https://www.mariages.net/photo-mariage/bayard-clement--e274689'
-          title='Mariages.net'>
-          <img
-            alt='Mariages.net'
-            src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
-            style={{ borderWidth: '0px', margin: '15px' }}
-          />
-        </a>
+        <div style={{ borderWidth: '0px', marginTop: '15px' }}>
+          {' '}
+          <a
+            href='https://www.mariages.net/photo-mariage/bayard-clement--e274689'
+            title='Mariages.net'>
+            <Image
+              alt='Mariages.net'
+              src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
+              style={{ borderWidth: '0px', marginTop: '15px' }}
+              height={50}
+              width={200}
+              objectFit='contain'
+            />
+          </a>
+        </div>
+
         <div className='pricing'>
           <div className='formula1'>
             <div className='txt'>

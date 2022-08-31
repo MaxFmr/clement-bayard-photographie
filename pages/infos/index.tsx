@@ -2,10 +2,32 @@ import Footer from '../../components/footer';
 import Image from 'next/image';
 import Header from '../../components/Header';
 import StyledInfos from './infos.style';
+import Head from 'next/head';
 
 const InfosPage = (): JSX.Element => {
   return (
     <>
+      <Head>
+        <title>About - My Clothing Store</title>
+        <meta name='description' content='Qui suis-je ? Informations' />
+        <meta property='og:title' content='About - Clément Bayard' />
+        <meta
+          property='og:description'
+          content='Photographe autodidacte passionné. Cette passion m’a été transmise
+              par mes deux grands-pères. 
+              Je suis Cuisinier et Pâtissier de formation.'
+        />
+        <meta
+          property='og:description'
+          content='Mettre en valeur le savoir faire d’artisans sous forme de
+          reportage, exposition, création de carte, reportage vidéo afin de
+          montrer le meilleur de vous même, dans le but d’accroître votre
+          activité.'
+        />
+        <meta property='og:url' content='https://myclothingstore.com/about' />
+        <meta property='og:type' content='website' />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <Header />
       <StyledInfos>
         <div className='presentation'>

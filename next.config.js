@@ -8,6 +8,10 @@ module.exports = nextConfig;
 
 module.exports = {
   images: {
-    domains: ['res.cloudinary.com', 'www.maximekerlidou.fr'],
+    domains: [
+      'res.cloudinary.com',
+      'www.maximekerlidou.fr',
+      'www.mariages.net',
+    ],
   },
 };

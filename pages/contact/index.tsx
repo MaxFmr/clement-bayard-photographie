@@ -3,6 +3,7 @@ import { BsInstagram, BsPhone } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import StyledContactPage from './contact.style';
+import Image from 'next/image';
 import Footer from '../../components/footer';
 
 const ContactPage = (): JSX.Element => {
@@ -34,10 +35,13 @@ const ContactPage = (): JSX.Element => {
         <a
           href='https://www.mariages.net/photo-mariage/bayard-clement--e274689'
           title='Mariages.net'>
-          <img
+          <Image
             alt='Mariages.net'
             src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
             style={{ borderWidth: '0px', margin: '20px' }}
+            height={60}
+            width={260}
+            objectFit='contain'
           />
         </a>
       </div>

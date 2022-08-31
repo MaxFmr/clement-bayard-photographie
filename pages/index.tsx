@@ -35,6 +35,13 @@ const Home: NextPage = () => {
           name='description'
           content='Clément Bayard, photographe et videaste à Valenciennes, photographie culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
         />
+        <meta
+          property='og:title'
+          content='Clément Bayard photographe vidéaste'
+        />
+        <meta property='og:url' content='https://bayardclement.fr' />
+        <meta property='og:url' content='https://bayardclement.com' />
+        <meta property='og:type' content='website' />
       </Head>
       <div className='name'>
         <div className='brand'>

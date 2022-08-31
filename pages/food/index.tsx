@@ -10,115 +10,143 @@ const photos = [
   {
     id: 1,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi1.webp',
+    alt: 'photo culinaire',
   },
   {
     id: 2,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi2.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 3,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi3.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 5,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi4.webp',
+    alt: 'photo culinaire',
   },
   {
     id: 6,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi5.webp',
+    alt: 'photo culinaire',
   },
   {
     id: 7,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi6.webp',
+    alt: 'photo culinaire',
   },
   {
     id: 8,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi7.webp',
+    alt: 'photo culinaire',
   },
   {
     id: 9,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi8.webp',
+    alt: 'photo culinaire',
   },
   {
     id: 10,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi9.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 11,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi10.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 12,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi11.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 13,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi12.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 14,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi13.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 15,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi14.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 16,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi15.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 17,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi16.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 18,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi17.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 19,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi18.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 20,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi19.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 21,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi20.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 22,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi21.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 23,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi22.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 24,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi23.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 25,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi24.jpg',
+    alt: 'photo culinaire',
   },
 
   {
     id: 26,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi26.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 27,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi27.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 28,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi28.jpg',
+    alt: 'photo culinaire',
   },
   {
     id: 29,
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi29.jpg',
+    alt: 'photo culinaire',
   },
 ];
 
@@ -199,6 +227,7 @@ const FoodPage = (): JSX.Element => {
               height={800}
               width={550}
               objectFit='cover'
+              alt='clients de Clément Bayard'
             />
           </div>
         )}
