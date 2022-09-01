@@ -45,10 +45,7 @@ const Home: NextPage = () => {
       </Script>
       <Head>
         <title>Clément Bayard - Photographe</title>
-        <meta
-          name='google-site-verification'
-          content='Rq_H9osTIGCdkPTuDIOiSaNSMem-brEOLWF0nEt4eYA'
-        />
+
         <meta
           name='google-site-verification'
           content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
