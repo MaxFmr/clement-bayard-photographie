@@ -46,6 +46,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Clément Bayard - Photographe</title>
         <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
           name='description'
           content='Clément Bayard, photographe et videaste à Valenciennes, photographie culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
         />
