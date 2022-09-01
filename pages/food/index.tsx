@@ -224,8 +224,8 @@ const FoodPage = (): JSX.Element => {
             </button>
             <Image
               src='/assets/clients.JPG'
-              height={800}
-              width={550}
+              height={700}
+              width={450}
               objectFit='cover'
               alt='clients de Clément Bayard'
             />

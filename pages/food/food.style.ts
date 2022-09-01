@@ -99,8 +99,8 @@ const StyledFoodPage = styled.section`
   }
   .clients {
     position: fixed;
-    top: 0;
     left: 30%;
+    margin-top: -3%;
     z-index: 5;
     display: flex;
     top: 10%;
