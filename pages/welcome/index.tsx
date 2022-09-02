@@ -4,6 +4,13 @@ import Header from '../../components/Header';
 import { useRouter } from 'next/router';
 import Footer from '../../components/footer';
 import Head from 'next/head';
+import { motion } from 'framer-motion';
+
+const config = {
+  type: 'spring',
+  damping: 20,
+  stiffness: 100,
+};
 const categories = [
   {
     id: 1,
@@ -47,62 +54,71 @@ const Welcome = () => {
   const router = useRouter();
   return (
     <>
-      <Head>
-        <title>Clément Bayard Photographie page d’acceuil</title>
+      <motion.h1
+        transition={config}
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ x: 0, opacity: 0 }}>
+        <Head>
+          <title>Clément Bayard Photographie page d’acceuil</title>
 
-        <meta
-          name='google-site-verification'
-          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
-        />
-        <meta
-          name='description'
-          content='accueil et menu principale, rubriques : portraits, mariages, culinaire, paysages, video, street'
-        />
-        <meta property='og:title' content='Clément Bayard photographie menu' />
+          <meta
+            name='google-site-verification'
+            content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+          />
+          <meta
+            name='description'
+            content='accueil et menu principale, rubriques : portraits, mariages, culinaire, paysages, video, street'
+          />
+          <meta
+            property='og:title'
+            content='Clément Bayard photographie menu'
+          />
 
-        <meta property='og:url' content='https://bayardclement.fr/welcome' />
-        <meta property='og:url' content='https://bayardclement.com/welcome' />
-        <meta property='og:type' content='website' />
-      </Head>
-      <Header />
-      <StyledWelcome>
-        {categories.map((category) => {
-          if (category.title !== 'Videos') {
-            return (
-              <ParallaxBanner
-                key={category.id}
-                onClick={() => router.push(`${category.path}`)}
-                className='parallax'
-                style={{ cursor: 'pointer' }}
-                layers={[
-                  {
-                    image: category.url,
-                    speed: -30,
-                    opacity: [0.9, 1],
-                  },
-                ]}>
-                <div className='container1'>
-                  <div
-                    className='title'
-                    style={
-                      category.id % 2 === 0
-                        ? { left: '10vw' }
-                        : { left: '71vw' }
-                    }>
-                    <h3>{category.theme}</h3>
-                    <span>{category.title}</span>
+          <meta property='og:url' content='https://bayardclement.fr/welcome' />
+          <meta property='og:url' content='https://bayardclement.com/welcome' />
+          <meta property='og:type' content='website' />
+        </Head>
+        <Header />
+        <StyledWelcome>
+          {categories.map((category) => {
+            if (category.title !== 'Videos') {
+              return (
+                <ParallaxBanner
+                  key={category.id}
+                  onClick={() => router.push(`${category.path}`)}
+                  className='parallax'
+                  style={{ cursor: 'pointer' }}
+                  layers={[
+                    {
+                      image: category.url,
+                      speed: -30,
+                      opacity: [0.9, 1],
+                    },
+                  ]}>
+                  <div className='container1'>
+                    <div
+                      className='title'
+                      style={
+                        category.id % 2 === 0
+                          ? { left: '10vw' }
+                          : { left: '71vw' }
+                      }>
+                      <h3>{category.theme}</h3>
+                      <span>{category.title}</span>
+                    </div>
+                    <div className='phoneDisplayTitle'>
+                      <h3>{category.theme}</h3>
+                      <span>{category.title}</span>
+                    </div>
                   </div>
-                  <div className='phoneDisplayTitle'>
-                    <h3>{category.theme}</h3>
-                    <span>{category.title}</span>
-                  </div>
-                </div>
-              </ParallaxBanner>
-            );
-          }
-        })}
-        <Footer />
-      </StyledWelcome>
+                </ParallaxBanner>
+              );
+            }
+          })}
+          <Footer />
+        </StyledWelcome>
+      </motion.h1>
     </>
   );
 };
