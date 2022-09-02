@@ -25,6 +25,7 @@ const InfosPage = (): JSX.Element => {
           activité.'
         />
         <meta property='og:url' content='https://bayardclement.fr/infos' />
+        <meta property='og:url' content='https://bayardclement.com/infos' />
         <meta property='og:type' content='website' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
