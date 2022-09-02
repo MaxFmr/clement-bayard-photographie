@@ -58,6 +58,11 @@ const Home: NextPage = () => {
           property='og:title'
           content='Clément Bayard photographe vidéaste'
         />
+        <meta
+          name='keywords'
+          content='photographie, photo, video, valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
+        />
+
         <meta property='og:url' content='https://bayardclement.fr' />
         <meta property='og:url' content='https://bayardclement.com' />
         <meta property='og:type' content='website' />
