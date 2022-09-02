@@ -8,7 +8,7 @@ const InfosPage = (): JSX.Element => {
   return (
     <>
       <Head>
-        <title>About - My Clothing Store</title>
+        <title>A propos de moi</title>
         <meta name='description' content='Qui suis-je ? Informations' />
         <meta property='og:title' content='About - Clément Bayard' />
         <meta
@@ -24,7 +24,7 @@ const InfosPage = (): JSX.Element => {
           montrer le meilleur de vous même, dans le but d’accroître votre
           activité.'
         />
-        <meta property='og:url' content='https://myclothingstore.com/about' />
+        <meta property='og:url' content='https://bayardclement.fr/infos' />
         <meta property='og:type' content='website' />
         <link rel='icon' href='/favicon.ico' />
       </Head>

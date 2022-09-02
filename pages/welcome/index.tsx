@@ -3,6 +3,7 @@ import StyledWelcome from './category.style';
 import Header from '../../components/Header';
 import { useRouter } from 'next/router';
 import Footer from '../../components/footer';
+import Head from 'next/head';
 const categories = [
   {
     id: 1,
@@ -46,6 +47,23 @@ const Welcome = () => {
   const router = useRouter();
   return (
     <>
+      <Head>
+        <title>Clément Bayard Photographie page d'acceuil</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
+          name='description'
+          content='accueil et menu principale, rubriques : portraits, mariages, culinaire, paysages, video, street'
+        />
+        <meta property='og:title' content='Clément Bayard photographie menu' />
+
+        <meta property='og:url' content='https://bayardclement.fr/welcome' />
+        <meta property='og:url' content='https://bayardclement.com/welcome' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <StyledWelcome>
         {categories.map((category) => {

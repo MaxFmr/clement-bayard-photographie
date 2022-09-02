@@ -4,6 +4,7 @@ import ImageGallery from 'react-image-gallery';
 import Image from 'next/image';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import Footer from '../../components/footer';
+import Head from 'next/head';
 
 export const images = [
   {
@@ -113,6 +114,26 @@ export const images = [
 const WeedingPage = (): JSX.Element => {
   return (
     <>
+      <Head>
+        <title>Clément Bayard Photographie Mariages</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
+          name='description'
+          content='Gallerie Photo de Mariages par Clément Bayard'
+        />
+        <meta
+          property='og:title'
+          content='Clément Bayard photographie portraits'
+        />
+
+        <meta property='og:url' content='https://bayardclement.fr/wedding' />
+        <meta property='og:url' content='https://bayardclement.com/wedding' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <StyledWeedingPage>
         <div style={{ borderWidth: '0px', marginTop: '15px' }}>

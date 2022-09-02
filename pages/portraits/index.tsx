@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import Gallery from '../../components/gallery';
 import Footer from '../../components/footer';
+import Head from 'next/head';
 
 const photos = [
   {
@@ -128,6 +129,26 @@ const photos = [
 const PortraitsPage = (): JSX.Element => {
   return (
     <>
+      <Head>
+        <title>Clément Bayard Photographie portraits</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
+          name='description'
+          content='Gallerie Photo de portraits par Clément Bayard'
+        />
+        <meta
+          property='og:title'
+          content='Clément Bayard photographie portraits'
+        />
+
+        <meta property='og:url' content='https://bayardclement.fr/portraits' />
+        <meta property='og:url' content='https://bayardclement.com/portraits' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <Gallery photos={photos} page='portraits' />
       <Footer />

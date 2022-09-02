@@ -60,7 +60,7 @@ const Home: NextPage = () => {
         />
         <meta
           name='keywords'
-          content='photographie, photo, video, valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
+          content='photographie, photo, video, Valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
         />
 
         <meta property='og:url' content='https://bayardclement.fr' />

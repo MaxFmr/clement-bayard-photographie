@@ -5,10 +5,35 @@ import { FiMail } from 'react-icons/fi';
 import StyledContactPage from './contact.style';
 import Image from 'next/image';
 import Footer from '../../components/footer';
+import Head from 'next/head';
 
 const ContactPage = (): JSX.Element => {
   return (
     <StyledContactPage>
+      <Head>
+        <title>Clément Bayard Contact</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
+          name='contact'
+          content='Contact, email, téléphones, réseaux sociaux'
+        />
+        <meta
+          property='og:title'
+          content='Clément Bayard photographe vidéaste'
+        />
+        <meta
+          name='keywords'
+          content='photographie, photo, video, Valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
+        />
+
+        <meta property='og:url' content='https://bayardclement.fr/contact' />
+        <meta property='og:url' content='https://bayardclement.com/contact' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <div className='contact'>
         <h2>Contactez moi :</h2>

@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import Gallery from '../../components/gallery';
 import Footer from '../../components/footer';
+import Head from 'next/head';
 
 const photos = [
   {
@@ -68,6 +69,26 @@ const photos = [
 const StreetPage = (): JSX.Element => {
   return (
     <>
+      <Head>
+        <title>Clément Bayard Photographie street photography</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
+          name='description'
+          content='Gallerie Photo de photographie urbaine ou street photography par Clément Bayard'
+        />
+        <meta
+          property='og:title'
+          content='Clément Bayard photographie photo urbaine'
+        />
+
+        <meta property='og:url' content='https://bayardclement.fr/street' />
+        <meta property='og:url' content='https://bayardclement.com/street' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <Gallery photos={photos} page='street' />
       <Footer />

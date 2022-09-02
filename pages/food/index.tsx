@@ -6,6 +6,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import { useState } from 'react';
 import Footer from '../../components/footer';
 import Image from 'next/image';
+import Head from 'next/head';
 const photos = [
   {
     id: 1,
@@ -162,6 +163,30 @@ const FoodPage = (): JSX.Element => {
 
   return (
     <>
+      <Head>
+        <title>Clément Bayard photographie culinaire</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta
+          name='photograpie culinaire'
+          content='photographie culinaire, produits des métiers de bouche, reportage culinaire'
+        />
+        <meta
+          property='og:title'
+          content='Clément Bayard photographie culinaire'
+        />
+        <meta
+          name='keywords'
+          content='photographie, photo, video, Valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
+        />
+
+        <meta property='og:url' content='https://bayardclement.fr/food' />
+        <meta property='og:url' content='https://bayardclement.com/food' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <StyledFoodPage>
         <ParallaxBanner
