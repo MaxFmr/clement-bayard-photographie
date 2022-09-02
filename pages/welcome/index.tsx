@@ -48,7 +48,7 @@ const Welcome = () => {
   return (
     <>
       <Head>
-        <title>Clément Bayard Photographie page d'acceuil</title>
+        <title>Clément Bayard Photographie page d’acceuil</title>
 
         <meta
           name='google-site-verification'
