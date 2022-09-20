@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+    ];
+  },
+};
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -13,16 +24,5 @@ module.exports = {
       'www.maximekerlidou.fr',
       'www.mariages.net',
     ],
-  },
-};
-
-module.exports = {
-  async rewrites() {
-    return [
-      {
-        source: '/sitemap.xml',
-        destination: '/api/sitemap',
-      },
-    ];
   },
 };
