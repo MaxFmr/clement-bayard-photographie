@@ -23,15 +23,19 @@ const ContactPage = (): JSX.Element => {
         />
         <meta
           property='og:title'
-          content='Clément Bayard photographe vidéaste'
+          content='Contacts et réseaux sociaux de Clément Bayard photographe et vidéaste'
+        />
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
         />
         <meta
-          name='keywords'
-          content='photographie, photo, video, Valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
+          name='description'
+          content='Contacts et réseaux sociaux de Clément Bayard : photographie, reportage culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
         />
 
         <meta property='og:url' content='https://bayardclement.fr/contact' />
-        <meta property='og:url' content='https://bayardclement.com/contact' />
         <meta property='og:type' content='website' />
       </Head>
       <Header />

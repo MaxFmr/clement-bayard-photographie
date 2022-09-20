@@ -131,7 +131,6 @@ const WeedingPage = (): JSX.Element => {
         />
 
         <meta property='og:url' content='https://bayardclement.fr/wedding' />
-        <meta property='og:url' content='https://bayardclement.com/wedding' />
         <meta property='og:type' content='website' />
       </Head>
       <Header />

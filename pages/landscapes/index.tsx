@@ -136,10 +136,7 @@ const ViewsPage = (): JSX.Element => {
         />
 
         <meta property='og:url' content='https://bayardclement.fr/landscapes' />
-        <meta
-          property='og:url'
-          content='https://bayardclement.com/landscapes'
-        />
+
         <meta property='og:type' content='website' />
       </Head>
       <Header />

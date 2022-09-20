@@ -146,7 +146,6 @@ const PortraitsPage = (): JSX.Element => {
         />
 
         <meta property='og:url' content='https://bayardclement.fr/portraits' />
-        <meta property='og:url' content='https://bayardclement.com/portraits' />
         <meta property='og:type' content='website' />
       </Head>
       <Header />

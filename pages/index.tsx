@@ -52,19 +52,14 @@ const Home: NextPage = () => {
         />
         <meta
           name='description'
-          content='Photographie, reportage culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
+          content='Clément Bayard : photographie, reportage culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
         />
         <meta
           property='og:title'
           content='Clément Bayard photographe vidéaste'
         />
-        <meta
-          name='keywords'
-          content='photographie, photo, video, Valenciennes, Hauts de France, Lille, Cambrai, culinaire, portraits, street photography, atelier, studio, caméra, mariages, artisanat, nord, cuisine, paysages, montage'
-        />
 
         <meta property='og:url' content='https://bayardclement.fr' />
-        <meta property='og:url' content='https://bayardclement.com' />
         <meta property='og:type' content='website' />
       </Head>
       <div className='name'>

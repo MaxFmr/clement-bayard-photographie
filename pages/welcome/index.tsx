@@ -61,7 +61,6 @@ const Welcome = () => {
         <meta property='og:title' content='Clément Bayard photographie menu' />
 
         <meta property='og:url' content='https://bayardclement.fr/welcome' />
-        <meta property='og:url' content='https://bayardclement.com/welcome' />
         <meta property='og:type' content='website' />
       </Head>
       <Header />

@@ -9,23 +9,20 @@ const InfosPage = (): JSX.Element => {
     <>
       <Head>
         <title>A propos de moi</title>
-        <meta name='description' content='Qui suis-je ? Informations' />
+        <meta
+          name='description'
+          content='Qui suis-je ? Informations à propos Clémen Bayard Photographe-vidéaste'
+        />
         <meta property='og:title' content='About - Clément Bayard' />
         <meta
-          property='og:description'
-          content='Photographe autodidacte passionné. Cette passion m’a été transmise
-              par mes deux grands-pères. 
-              Je suis Cuisinier et Pâtissier de formation.'
-        />
-        <meta
-          property='og:description'
-          content='Mettre en valeur le savoir faire d’artisans sous forme de
-          reportage, exposition, création de carte, reportage vidéo afin de
+          property='description'
+          content='Photographe autodidacte passionné. Cette passion m’a été transmise par mes deux grands-pères. Je suis Cuisinier et Pâtissier de formation. Mettre en valeur le savoir faire d’artisans sous forme de reportage, exposition, création de carte, reportage vidéo afin de
           montrer le meilleur de vous même, dans le but d’accroître votre
           activité.'
         />
+
         <meta property='og:url' content='https://bayardclement.fr/infos' />
-        <meta property='og:url' content='https://bayardclement.com/infos' />
+
         <meta property='og:type' content='website' />
         <link rel='icon' href='/favicon.ico' />
       </Head>

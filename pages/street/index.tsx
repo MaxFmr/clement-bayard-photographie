@@ -86,7 +86,6 @@ const StreetPage = (): JSX.Element => {
         />
 
         <meta property='og:url' content='https://bayardclement.fr/street' />
-        <meta property='og:url' content='https://bayardclement.com/street' />
         <meta property='og:type' content='website' />
       </Head>
       <Header />

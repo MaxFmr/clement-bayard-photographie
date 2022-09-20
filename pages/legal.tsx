@@ -1,9 +1,23 @@
+import Head from 'next/head';
 import Footer from '../components/footer';
 import Header from '../components/Header';
 
 const LegalPage = (): JSX.Element => {
   return (
     <>
+      <Head>
+        <title>Clément Bayard - mentions légales</title>
+
+        <meta
+          name='google-site-verification'
+          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+        />
+        <meta name='description' content='Mentions légales' />
+        <meta property='og:title' content='Mentions légales' />
+
+        <meta property='og:url' content='https://bayardclement.fr/legal' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Header />
       <div style={{ margin: '10%' }}>
         <p>

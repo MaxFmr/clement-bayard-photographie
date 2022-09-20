@@ -17,7 +17,6 @@ const VideosPage = (): JSX.Element => {
         <meta property='og:title' content='Clément Bayard video ' />
 
         <meta property='og:url' content='https://bayardclement.fr/videos' />
-        <meta property='og:url' content='https://bayardclement.com/videos' />
         <meta property='og:type' content='website' />
       </Head>
       <Header />
