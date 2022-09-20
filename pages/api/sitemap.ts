@@ -9,48 +9,48 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   // generate sitemap here
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-      <url>
+      <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+      <sitemap>
         <loc>https://www.bayardclement.fr</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/welcome</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/contact</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/infos</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/food</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/wedding</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/portraits</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/street</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/videos</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      <url>
+      </sitemap>
+      <sitemap>
         <loc>https://www.bayardclement.fr/landscapes</loc>
         <lastmod>2022-09-20</lastmod>
-      </url>
-      </urlset>`;
+      </sitemap>
+      </sitemapindex>`;
 
   res.end(xml);
 }
