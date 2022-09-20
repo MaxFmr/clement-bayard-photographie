@@ -129,12 +129,11 @@ const LegalPage = (): JSX.Element => {
           en justice à votre encontre.
         </p>
         <h2> Litiges :</h2>
-        Les présentes conditions du site www.anthedesign.fr sont régies par les
-        lois françaises et toute contestation ou litiges qui pourraient naître
-        de l’interprétation ou de l’exécution de celles-ci seront de la
-        compétence exclusive des tribunaux dont dépend le siège social de la
-        société. La langue de référence, pour le règlement de contentieux
-        éventuels, est le français.
+        Les présentes conditions du site sont régies par les lois françaises et
+        toute contestation ou litiges qui pourraient naître de l’interprétation
+        ou de l’exécution de celles-ci seront de la compétence exclusive des
+        tribunaux dont dépend le siège social de la société. La langue de
+        référence, pour le règlement de contentieux éventuels, est le français.
         <h2> Données personnelles :</h2>
         De manière générale, vous n’êtes pas tenu de nous communiquer vos
         données personnelles lorsque vous visitez notre site Internet 
