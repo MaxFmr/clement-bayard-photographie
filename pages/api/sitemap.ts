@@ -1,76 +1,57 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-type Page = { slug: string };
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/xml');
 
-type Pages = Page[];
+  // Instructing the Vercel edge to cache the file
+  res.setHeader('Cache-control', 'stale-while-revalidate, s-maxage=3600');
 
-const CreateSiteMap = async (req: NextApiRequest, res: NextApiResponse) => {
-  try {
-    const smStream = new SitemapStream({
-      hostname: `https://${req.headers.host}`,
-    });
+  // generate sitemap here
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+      <url>
+        <loc>https://www.bayardclement.fr</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/welcome</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/contact</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/infos</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/food</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/wedding</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/portraits</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/street</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/videos</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      <url>
+        <loc>https://www.bayardclement.fr/landscapes</loc>
+        <lastmod>2022-09-20</lastmod>
+      </url>
+      </urlset>`;
 
-    // List of posts
-    const pages: Pages = [
-      {
-        slug: '',
-      },
-      {
-        slug: 'welcome',
-      },
-      {
-        slug: 'contact',
-      },
-      {
-        slug: 'food',
-      },
-      {
-        slug: 'infos',
-      },
-      {
-        slug: 'landscapes',
-      },
-      {
-        slug: 'portraits',
-      },
-      {
-        slug: 'street',
-      },
-      {
-        slug: 'videos',
-      },
-      {
-        slug: 'wedding',
-      },
-    ];
-
-    // Create each URL row
-    pages.forEach((page) => {
-      smStream.write({
-        url: `/${page.slug as string}`,
-        changefreq: 'daily',
-        priority: 0.9,
-      });
-    });
-
-    // End sitemap stream
-    smStream.end();
-
-    // XML sitemap string
-    const sitemapOutput = (await streamToPromise(smStream)).toString();
-
-    // Change headers
-    res.writeHead(200, {
-      'Content-Type': 'application/xml',
-    });
-
-    // Display output to user
-    res.end(sitemapOutput);
-  } catch (e) {
-    console.log(e);
-    res.send(JSON.stringify(e));
-  }
-};
-
-export default CreateSiteMap;
+  res.end(xml);
+}
