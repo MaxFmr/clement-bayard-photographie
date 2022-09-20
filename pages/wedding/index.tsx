@@ -137,7 +137,6 @@ const WeedingPage = (): JSX.Element => {
       <Header />
       <StyledWeedingPage>
         <div style={{ borderWidth: '0px', marginTop: '15px' }}>
-          {' '}
           <a
             href='https://www.mariages.net/photo-mariage/bayard-clement--e274689'
             title='Mariages.net'>
