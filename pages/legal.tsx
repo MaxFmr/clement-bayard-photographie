@@ -33,6 +33,7 @@ const LegalPage = (): JSX.Element => {
           Clement Bayard : Responsable éditorial Numéro de SIRET :
           87903512900029 email : bayard.clt@gmail.com
         </p>
+        <div></div>
         <span> Site Web : </span>
         <a href='https://www.maximekerlidou.fr'>www.maximekerlidou.fr</a>
         <h2>Hébergement :</h2>
