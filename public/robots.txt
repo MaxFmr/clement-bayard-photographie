@@ -2,18 +2,8 @@
 User-agent: *
 Allow: /
 
-# test-bot
-User-agent: test-bot
-Allow: /infos
-Allow: /welcome
-Allow: /street
-Allow: /videos
-Allow: /food
-Allow: /portrait
-Allow: /contact
-
 # Host
-Host: https://bayardclement.fr
+Host: https://www.bayardclement.fr
 
 # Sitemaps
-Sitemap: https://bayardclement.fr/sitemap.xml
+Sitemap: https://www.bayardclement.fr/sitemap.xml
