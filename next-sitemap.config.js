@@ -6,6 +6,7 @@ const config = {
   exclude: [
     '/blank',
     '/blog',
+    '/legal',
     '/contact/contact.style',
     '/food/food.style',
     '/infos/infos.style',
