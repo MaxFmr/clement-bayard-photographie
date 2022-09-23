@@ -2,7 +2,7 @@ const config = {
   siteUrl: 'https://www.bayardclement.fr',
   generateRobotsTxt: true, // (Optional parameter for creating robots.txt file)
   // Other available options..
-
+  generateIndexSitemap: false,
   exclude: [
     '/blank',
     '/blog',
