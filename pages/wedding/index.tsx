@@ -115,7 +115,7 @@ const WeedingPage = (): JSX.Element => {
   return (
     <>
       <Head>
-        <title>Clément Bayard Photographie Mariages</title>
+        <title>Clément Bayard Photographie de Mariages</title>
 
         <meta
           name='google-site-verification'
