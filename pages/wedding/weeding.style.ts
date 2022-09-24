@@ -28,7 +28,7 @@ const StyledWeedingPage = styled.section`
     }
     @media (max-width: 570px) {
       width: 100%;
-      font-size: 7px;
+      font-size: 8px;
       .txt {
         margin: 4px 0px;
       }
