@@ -40,7 +40,7 @@ const Home: NextPage = () => {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'G-LJ7KP7WJB3');
         `}
       </Script>
       <Head>
