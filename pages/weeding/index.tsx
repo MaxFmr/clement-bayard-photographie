@@ -123,7 +123,7 @@ const WeedingPage = (): JSX.Element => {
         />
         <meta
           name='description'
-          content='Gallerie Photo de Mariages par Clément Bayard'
+          content='Clément Bayard, Le photographe de votre mariage basé à Valeciennes, en Hats-de-France, dans le Nord.'
         />
         <meta
           property='og:title'
