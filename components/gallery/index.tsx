@@ -65,6 +65,8 @@ const Gallery = ({ photos, page }: GalleryProps): JSX.Element => {
                     alt={
                       photo.alt + 'photo prise par Clément Bayard' + photo.id
                     }
+                    placeholder='blur'
+                    blurDataURL={path}
                   />
                 </div>
               </>

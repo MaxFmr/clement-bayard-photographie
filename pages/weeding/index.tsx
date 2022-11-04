@@ -141,11 +141,17 @@ const WeedingPage = (): JSX.Element => {
             title='Mariages.net'>
             <Image
               alt='Mariages.net'
-              src='https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
+              src={
+                'https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
+              }
               style={{ borderWidth: '0px', marginTop: '15px' }}
               height={50}
               width={200}
               objectFit='contain'
+              placeholder='blur'
+              blurDataURL={
+                'https://www.mariages.net/images/sellos/label-partenaire--gg274689.png'
+              }
             />
           </a>
         </div>
@@ -164,24 +170,28 @@ const WeedingPage = (): JSX.Element => {
 
             <div className='bg'>
               <Image
-                src='/assets/wedding/coqueliquot.jpg'
+                src={'/assets/wedding/coqueliquot.jpg'}
                 layout='responsive'
                 sizes='100%'
                 height={100}
                 width={150}
                 alt="photo d'un coquelicot"
+                placeholder='blur'
+                blurDataURL={'/assets/wedding/coqueliquot.jpg'}
               />
             </div>
           </div>
           <div className='formula2'>
             <div className='bg'>
               <Image
-                src='/assets/wedding/muguet.jpg'
+                src={'/assets/wedding/muguet.jpg'}
                 layout='responsive'
                 sizes='100%'
                 height={100}
                 width={150}
                 alt="photo d'un brin de muguet"
+                placeholder='blur'
+                blurDataURL={'/assets/wedding/muguet.jpg'}
               />
             </div>
             <div className='txt'>
@@ -210,12 +220,14 @@ const WeedingPage = (): JSX.Element => {
             </div>
             <div className='bg'>
               <Image
-                src='/assets/wedding/fleurerose.jpg'
+                src={'/assets/wedding/fleurerose.jpg'}
                 layout='responsive'
                 sizes='100%'
                 height={100}
                 width={150}
                 alt="photo d'un camelia"
+                placeholder='blur'
+                blurDataURL={'/assets/wedding/fleurerose.jpg'}
               />
             </div>
           </div>
