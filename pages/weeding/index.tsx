@@ -109,6 +109,76 @@ export const images = [
     thumbnail:
       'https://www.maximekerlidou.fr/photos/clement/mariage/wedding22.jpg',
   },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_1.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_1.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_2.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_2.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_3.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_3.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_4.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_4.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_5.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_5.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_6.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_6.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_7.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_7.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_8.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_8.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_9.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_9.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_10.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_10.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_11.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_11.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_12.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_12.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_13.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_13.webp',
+  },
+  {
+    original: 'https://www.maximekerlidou.fr/photos/clement/mariage/_14.webp',
+
+    thumbnail: 'https://www.maximekerlidou.fr/photos/clement/mariage/_14.webp',
+  },
 ];
 
 const WeedingPage = (): JSX.Element => {

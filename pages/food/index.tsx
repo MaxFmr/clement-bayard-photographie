@@ -149,6 +149,51 @@ const photos = [
     url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/culi29.jpg',
     alt: 'photo culinaire',
   },
+  {
+    id: 30,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere1.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 31,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere2.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 32,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere3.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 33,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere4.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 34,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere5.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 35,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere6.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 36,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere7.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 37,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere8.webp',
+    alt: 'photo culinaire',
+  },
+  {
+    id: 38,
+    url: 'https://www.maximekerlidou.fr/photos/clement/culinaire/_repere9.webp',
+    alt: 'photo culinaire',
+  },
 ];
 
 const photosGallery = photos.map((photo) => {

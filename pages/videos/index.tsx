@@ -34,6 +34,9 @@ const VideosPage = (): JSX.Element => {
           <video
             src='https://www.maximekerlidou.fr/videos/video.mp4'
             controls></video>
+          <video
+            src='https://www.maximekerlidou.fr/videos/edito.mp4'
+            controls></video>
         </div>
         <div style={{ marginTop: '20%' }}></div>
       </StyledVideos>
