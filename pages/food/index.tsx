@@ -52,8 +52,7 @@ const FoodPage = (): JSX.Element => {
           className='parallax'
           layers={[
             {
-              image:
-                'https://www.maximekerlidou.fr/photos/clement/culinaire/studio.webp',
+              image: '/assets/studio.jpg',
 
               speed: -20,
             },
