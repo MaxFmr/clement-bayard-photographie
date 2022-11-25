@@ -78,8 +78,7 @@ const Home: NextPage = () => {
         <ParallaxBanner
           layers={[
             {
-              image:
-                'https://maximekerlidou.fr/photos/clement/firstpage/firstpage2.jpg',
+              image: '/assets/landingBW.webp',
               speed: -10,
               expanded: false,
             },
@@ -103,8 +102,7 @@ const Home: NextPage = () => {
         <ParallaxBanner
           layers={[
             {
-              image:
-                'https://maximekerlidou.fr/photos/clement/firstpage/firstpage1.jpg',
+              image: '/assets/landingColor.webp',
               speed: -20,
               shouldAlwaysCompleteAnimation: true,
             },
