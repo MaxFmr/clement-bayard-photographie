@@ -32,7 +32,7 @@ const VideosPage = (): JSX.Element => {
             src='https://www.maximekerlidou.fr/videos/bruyere.mp4'
             controls></video>
           <video
-            src='https://www.maximekerlidou.fr/videos/video.mp4'
+            src='https://www.maximekerlidou.fr/videos/samin.mp4'
             controls></video>
           <video
             src='https://www.maximekerlidou.fr/videos/edito.mp4'
