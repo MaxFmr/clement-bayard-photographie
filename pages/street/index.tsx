@@ -6,62 +6,82 @@ import Head from 'next/head';
 const photos = [
   {
     id: 1,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street1.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street1.webp',
     alt: 'street photo',
   },
   {
     id: 2,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street2.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street2.webp',
     alt: 'street photo',
   },
   {
     id: 3,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street3.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street3.webp',
     alt: 'street photo',
   },
   {
     id: 4,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street4.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street4.webp',
     alt: 'street photo',
   },
   {
     id: 5,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street5.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street5.webp',
     alt: 'street photo',
   },
   {
     id: 6,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street6.JPG',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street6.webp',
     alt: 'street photo',
   },
   {
     id: 7,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street7.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street7.webp',
     alt: 'street photo',
   },
   {
     id: 8,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street8.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street8.webp',
     alt: 'street photo',
   },
   {
     id: 9,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street9.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street9.webp',
     alt: 'street photo',
   },
   {
     id: 10,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street10.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street10.webp',
     alt: 'street photo',
   },
   {
     id: 11,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street11.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street11.webp',
     alt: 'street photo',
   },
   {
     id: 12,
-    url: 'https://www.maximekerlidou.fr/photos/clement/street/street12.jpg',
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street12.webp',
+    alt: 'street photo',
+  },
+  {
+    id: 13,
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street13.webp',
+    alt: 'street photo',
+  },
+  {
+    id: 14,
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street14.webp',
+    alt: 'street photo',
+  },
+  {
+    id: 15,
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street15.webp',
+    alt: 'street photo',
+  },
+  {
+    id: 16,
+    url: 'https://www.maximekerlidou.fr/photos/clement/street/street16.webp',
     alt: 'street photo',
   },
 ];
