@@ -8,7 +8,7 @@ import Head from 'next/head';
 
 const WeedingPage = (): JSX.Element => {
   let images = [];
-  for (let index = 1; index < 30; index++) {
+  for (let index = 1; index < 29; index++) {
     images.push({
       original: `https://www.maximekerlidou.fr/photos/clement/mariage/_${index}.webp`,
 
