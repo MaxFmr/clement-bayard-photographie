@@ -6,7 +6,7 @@ import Head from 'next/head';
 const photos = [
   {
     id: 1,
-    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape1.webp',
+    url: 'https://www.maximekerlidou.fr/photos/clement/paysage/landscape1.jpg',
     alt: 'paysage',
   },
   {
