@@ -22,7 +22,7 @@ const categories = [
   {
     id: 3,
     title: 'Manger avec les yeux',
-    url: '/assets/categories/food.webp',
+    url: '/assets/categories/food2.webp',
     theme: 'Photographie culinaire',
     path: '/food',
   },
