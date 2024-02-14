@@ -1,9 +1,2 @@
-# *
 User-agent: *
-Allow: /
-
-# Host
-Host: https://www.bayardclement.fr
-
-# Sitemaps
-Sitemap: https://www.bayardclement.fr/sitemap.xml
+Disallow: /

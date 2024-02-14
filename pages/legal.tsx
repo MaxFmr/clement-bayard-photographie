@@ -1,25 +1,15 @@
-import Head from 'next/head';
-import Footer from '../components/footer';
-import Header from '../components/Header';
+import Head from "next/head";
+import Footer from "../components/footer";
+import Header from "../components/Header";
 
 const LegalPage = (): JSX.Element => {
   return (
     <>
       <Head>
         <title>Clément Bayard - mentions légales</title>
-
-        <meta
-          name='google-site-verification'
-          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
-        />
-        <meta name='description' content='Mentions légales' />
-        <meta property='og:title' content='Mentions légales' />
-
-        <meta property='og:url' content='https://bayardclement.fr/legal' />
-        <meta property='og:type' content='website' />
       </Head>
       <Header />
-      <div style={{ margin: '10%' }}>
+      <div style={{ margin: "10%" }}>
         <p>
           Merci de lire avec attention les différentes modalités d’utilisation
           du présent site avant d’y parcourir ses pages. En vous connectant sur
@@ -35,12 +25,12 @@ const LegalPage = (): JSX.Element => {
         </p>
         <div></div>
         <span> Site Web : </span>
-        <a href='https://www.maximekerlidou.fr'>www.maximekerlidou.fr</a>
+        <a href="https://www.maximekerlidou.fr">www.maximekerlidou.fr</a>
         <h2>Hébergement :</h2>
         <p>Vercel - Vercel Inc. 340 S Lemon Ave Walnut, CA 91789</p>
         <h2>Développement :</h2>
         <p>Maxime KERLIDOU Numéro de SIRET : 90968738600013</p>
-        <a href='https://www.maximekerlidou.fr'>www.maximekerlidou.fr</a>
+        <a href="https://www.maximekerlidou.fr">www.maximekerlidou.fr</a>
         <h2>Conditions d’utilisation</h2>
         Ce site {process.env.domain} est proposé en différents langages web
         (HTML, HTML5, Javascript, CSS, etc…) pour un meilleur confort

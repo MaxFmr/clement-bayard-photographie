@@ -1,13 +1,13 @@
-import type { NextPage } from 'next';
-import StyledLandingPage from './index.style';
-import { useSpring, animated } from '@react-spring/web';
-import { useState } from 'react';
-import { useRouter } from 'next/router';
-import { useRef } from 'react';
-import InstagramButton from '../components/instagramButton';
-import { ParallaxBanner } from 'react-scroll-parallax';
-import Head from 'next/head';
-import Script from 'next/script';
+import type { NextPage } from "next";
+import StyledLandingPage from "./index.style";
+import { useSpring, animated } from "@react-spring/web";
+import { useState } from "react";
+import { useRouter } from "next/router";
+import { useRef } from "react";
+import InstagramButton from "../components/instagramButton";
+import { ParallaxBanner } from "react-scroll-parallax";
+import Head from "next/head";
+import Script from "next/script";
 
 const Home: NextPage = () => {
   const ref = useRef<null | HTMLDivElement>(null);
@@ -22,9 +22,9 @@ const Home: NextPage = () => {
 
   const handleClick = async () => {
     toggle(!state);
-    ref.current?.scrollIntoView({ behavior: 'smooth' });
+    ref.current?.scrollIntoView({ behavior: "smooth" });
     setTimeout(() => {
-      router.push('/welcome');
+      router.push("/welcome");
     }, 1700);
   };
 
@@ -32,9 +32,10 @@ const Home: NextPage = () => {
     <StyledLandingPage>
       <Script
         async
-        src='https://www.googletagmanager.com/gtag/js?id=G-LJ7KP7WJB3'
-        id='google-analytics'
-        strategy='afterInteractive'>
+        src="https://www.googletagmanager.com/gtag/js?id=G-LJ7KP7WJB3"
+        id="google-analytics"
+        strategy="afterInteractive"
+      >
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
@@ -45,28 +46,12 @@ const Home: NextPage = () => {
       </Script>
       <Head>
         <title>Clément Bayard - Photographe</title>
-
-        <meta
-          name='google-site-verification'
-          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
-        />
-        <meta
-          name='description'
-          content='Clément Bayard : photographie, reportage culinaire, portraits, mariages, street photography, vidéo montage, création de medias de communication photo, vidéos à Valenciennes et en France.'
-        />
-        <meta
-          property='og:title'
-          content='Clément Bayard photographe vidéaste'
-        />
-
-        <meta property='og:url' content='https://bayardclement.fr' />
-        <meta property='og:type' content='website' />
       </Head>
-      <div className='name'>
-        <div className='brand'>
+      <div className="name">
+        <div className="brand">
           <span>Clement Bayard </span>
         </div>
-        <div className='work'>
+        <div className="work">
           <span>Photographe</span>
           <span>&</span>
           <span>Videaste</span>
@@ -74,41 +59,42 @@ const Home: NextPage = () => {
 
         <InstagramButton />
       </div>
-      <div className='bg'>
+      <div className="bg">
         <ParallaxBanner
           layers={[
             {
-              image: '/assets/landingBW.webp',
+              image: "/assets/landingBW.webp",
               speed: -10,
               expanded: false,
             },
           ]}
-          style={{ height: '100%' }}
+          style={{ height: "100%" }}
         />
         <animated.div
           onClick={() => handleClick()}
-          className='scrollDown'
+          className="scrollDown"
           style={{
             opacity: x.to({ range: [0, 1], output: [0, 1] }),
             scale: x.to({
               range: [0, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 1],
               output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
             }),
-          }}>
+          }}
+        >
           Entrer ↓
         </animated.div>
       </div>
-      <div className='bg2' ref={ref}>
+      <div className="bg2" ref={ref}>
         <ParallaxBanner
           layers={[
             {
-              image: '/assets/landingColor.webp',
+              image: "/assets/landingColor.webp",
               speed: -20,
               shouldAlwaysCompleteAnimation: true,
             },
           ]}
           style={{
-            aspectRatio: '2 / 1',
+            aspectRatio: "2 / 1",
           }}
         />
       </div>
